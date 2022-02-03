@@ -1,0 +1,12 @@
+diff --git a/third_party/blink/renderer/core/html/canvas/canvas_async_blob_creator.cc b/third_party/blink/renderer/core/html/canvas/canvas_async_blob_creator.cc
+index 01bc6b9b830f6843d7417c2c45f3d3853aaf8e47..000bf037658bf612dec984148a0b77112ada76e2 100644
+--- a/third_party/blink/renderer/core/html/canvas/canvas_async_blob_creator.cc
++++ b/third_party/blink/renderer/core/html/canvas/canvas_async_blob_creator.cc
+@@ -261,6 +261,7 @@ CanvasAsyncBlobCreator::CanvasAsyncBlobCreator(
+                          std::min(info.height(), max_dimension));
+       src_data_.reset(info, src_data_.addr(), src_data_.rowBytes());
+     }
++    BRAVE_CANVAS_ASYNC_BLOB_CREATOR
+   }
+ 
+   idle_task_status_ = kIdleTaskNotSupported;

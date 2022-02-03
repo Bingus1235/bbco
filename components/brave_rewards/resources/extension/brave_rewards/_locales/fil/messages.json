@@ -1,0 +1,657 @@
+{
+  "summary": {
+    "message": "Buod",
+    "description": ""
+  },
+  "tip": {
+    "message": "Tip",
+    "description": ""
+  },
+  "unverifiedCreator": {
+    "message": "Hindi pa Nave-verify na Creator",
+    "description": ""
+  },
+  "verifiedCreator": {
+    "message": "Na-verify na Creator",
+    "description": ""
+  },
+  "refreshStatus": {
+    "message": "I-refresh",
+    "description": ""
+  },
+  "pendingTipText": {
+    "message": "Ang anumang tip na gagawin mo ay mananatiling nakabinbin sa iyong wallet at awtomatiko itong susubukan ulit sa loob ng 90 araw. $link_begin$Matuto pa$link_end$",
+    "description": "",
+    "placeholders": {
+      "link_begin": {
+        "content": "$1"
+      },
+      "link_end": {
+        "content": "$2"
+      }
+    }
+  },
+  "pendingTipTitle": {
+    "message": "Hindi pa nakapag-sign up ang creator na ito.",
+    "description": ""
+  },
+  "pendingTipTitleRegistered": {
+    "message": "Kasalukuyang hindi pa na-configure ang creator na ito para tumanggap ng mga tip mula sa iyong wallet.",
+    "description": ""
+  },
+  "platformPublisherTitle": {
+    "message": "$name$ sa $platform$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "platform": {
+        "content": "$2"
+      }
+    }
+  },
+  "attention": {
+    "message": "Atensyon",
+    "description": ""
+  },
+  "sendTip": {
+    "message": "Magpadala ng tip",
+    "description": ""
+  },
+  "includeInAutoContribute": {
+    "message": "Isama sa Awtomatikong Pag-ambag",
+    "description": ""
+  },
+  "monthlyContribution": {
+    "message": "Buwanang Kontribusyon",
+    "description": ""
+  },
+  "ok": {
+    "message": "OK",
+    "description": ""
+  },
+  "set": {
+    "message": "Itakda",
+    "description": ""
+  },
+  "changeAmount": {
+    "message": "Baguhin ang halaga",
+    "description": ""
+  },
+  "cancel": {
+    "message": "I-cancel",
+    "description": ""
+  },
+  "grantCaptchaTitle": {
+    "message": "Kumpirmahing tao ka",
+    "description": ""
+  },
+  "grantCaptchaFailedTitle": {
+    "message": "Hmm… May Mali. Subukang Muli.",
+    "description": ""
+  },
+  "grantCaptchaHint": {
+    "message": "I-drag sa $hint$ target ang icon ng BAT.",
+    "description": "",
+    "placeholders": {
+      "hint": {
+        "content": "$1"
+      }
+    }
+  },
+  "grantCaptchaPassedTitleUGP": {
+    "message": "Maswerte ka ngayon!",
+    "description": ""
+  },
+  "grantCaptchaPassedTextUGP": {
+    "message": "Paparating na ang iyong grant para sa token.",
+    "description": ""
+  },
+  "grantCaptchaAmountUGP": {
+    "message": "Libreng Grant para sa Token",
+    "description": ""
+  },
+  "grantCaptchaPassedTitleAds": {
+    "message": "Nakakuha ka ng Ads Reward!",
+    "description": ""
+  },
+  "grantCaptchaPassedTextAds": {
+    "message": "Paparating na ang iyong Reward sa iyong Brave Rewards wallet.",
+    "description": ""
+  },
+  "grantCaptchaAmountAds": {
+    "message": "Ang Halaga ng Iyong Reward",
+    "description": ""
+  },
+  "grantCaptchaExpiration": {
+    "message": "Petsa ng Pag-expire ng Grant",
+    "description": ""
+  },
+  "grantCaptchaErrorTitle": {
+    "message": "Naku, may mali. Pakisubukang muli sa ibang pagkakataon.",
+    "description": ""
+  },
+  "grantCaptchaErrorText": {
+    "message": "Nagkakaproblema ang Mga Reward ng Brave. Pakisubukang muli sa ibang pagkakataon.",
+    "description": ""
+  },
+  "rewardsPaymentCheckStatus": {
+    "message": "I-check ang kalagayan",
+    "description": ""
+  },
+  "rewardsPaymentCompleted": {
+    "message": "Pagbati! Ang iyong $month$ na mga pabuya ay dumating na!",
+    "description": "",
+    "placeholders": {
+      "month": {
+        "content": "$1"
+      }
+    }
+  },
+  "rewardsPaymentPending": {
+    "message": "Ang iyong $amount$ $month$ na mga pabuya ay darating sa loob ng $days$",
+    "description": "",
+    "placeholders": {
+      "amount": {
+        "content": "$1"
+      },
+      "month": {
+        "content": "$2"
+      },
+      "days": {
+        "content": "$3"
+      }
+    }
+  },
+  "rewardsPaymentProcessing": {
+    "message": "Ang iyong $amount$ $month$ na mga pabuya ay parating na. Abangan ito!",
+    "description": "",
+    "placeholders": {
+      "amount": {
+        "content": "$1"
+      },
+      "month": {
+        "content": "$2"
+      }
+    }
+  },
+  "walletAccountLink": {
+    "message": "Pumunta sa aking $provider$ account",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletAddFunds": {
+    "message": "Magdagdag ng Mga Pondo",
+    "description": ""
+  },
+  "walletAutoContribute": {
+    "message": "Awtomatikong Mag-ambag",
+    "description": ""
+  },
+  "walletCompleteVerificationLink": {
+    "message": "Pumunta sa $provider$ para makumpleto ang pag-verify",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletCompleteVerificationText": {
+    "message": "Pakikumpleto ang pag-verify sa pagkakakilanlan para magsimulang makatanggap ng mga reward.",
+    "description": ""
+  },
+  "walletDisconnected": {
+    "message": "Na-log out",
+    "description": ""
+  },
+  "walletDisconnectLink": {
+    "message": "Idiskonekta mula sa $provider$",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletEstimatedEarnings": {
+    "message": "Mga Tinatantyang Kita",
+    "description": ""
+  },
+  "walletLogIntoYourAccount": {
+    "message": "Mag-log in sa iyong $provider$ account",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletMonthlyTips": {
+    "message": "Mga Buwanang Tip",
+    "description": ""
+  },
+  "walletMyWallet": {
+    "message": "Wallet Ko",
+    "description": ""
+  },
+  "walletOneTimeTips": {
+    "message": "Isang Beses na Pagbibigay ng Mga Tip",
+    "description": ""
+  },
+  "walletPending": {
+    "message": "Nakabinbin",
+    "description": ""
+  },
+  "walletRewardsFromAds": {
+    "message": "Mga Reward mula sa Ads",
+    "description": ""
+  },
+  "walletRewardsSummary": {
+    "message": "Buod ng Mga Reward",
+    "description": ""
+  },
+  "walletVerified": {
+    "message": "Na-verify",
+    "description": ""
+  },
+  "walletVerify": {
+    "message": "I-verify ang Wallet",
+    "description": ""
+  },
+  "walletYourBalance": {
+    "message": "Ang Iyong Balanse",
+    "description": ""
+  },
+  "notificationAddFunds": {
+    "message": "Magdagdag ng Mga Pondo",
+    "description": ""
+  },
+  "notificationReconnect": {
+    "message": "Kumonekta ulit",
+    "description": ""
+  },
+  "notificationClaim": {
+    "message": "I-claim",
+    "description": ""
+  },
+  "notificationAddFundsTitle": {
+    "message": "Hindi Sapat ang Pondo",
+    "description": ""
+  },
+  "notificationAddFundsText": {
+    "message": "Naghihintay ng deposito ang iyong Brave Rewards account.",
+    "description": ""
+  },
+  "notificationAutoContributeCompletedTitle": {
+    "message": "Awtomatikong Mag-ambag",
+    "description": ""
+  },
+  "notificationAutoContributeCompletedText": {
+    "message": "Nag-ambag ka ng $amount$.",
+    "description": "",
+    "placeholders": {
+      "amount": {
+        "content": "$1"
+      }
+    }
+  },
+  "notificationBackupWalletTitle": {
+    "message": "Backup na wallet",
+    "description": ""
+  },
+  "notificationBackupWalletText": {
+    "message": "Paki-back up ang iyong wallet sa Brave.",
+    "description": ""
+  },
+  "notificationBackupWalletAction": {
+    "message": "I-back up ngayon",
+    "description": ""
+  },
+  "notificationWalletDisconnectedTitle": {
+    "message": "Naka-log out ang iyong wallet",
+    "description": ""
+  },
+  "notificationWalletDisconnectedText": {
+    "message": "Maaari itong mangyari para mapanatiling secure ang account mo. Mag-click sa ibaba para kumonekta ulit ngayon.",
+    "description": ""
+  },
+  "notificationWalletDisconnectedAction": {
+    "message": "Kumonekta ulit",
+    "description": ""
+  },
+  "notificationWalletVerifiedTitle": {
+    "message": "Na-verify ang iyong wallet!",
+    "description": ""
+  },
+  "notificationWalletVerifiedText": {
+    "message": "Na-verify na ang $provider$ wallet mo at magagamit na ito para magdagdag at mag-withdraw ng pondo.",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "notificationTokenGrantTitle": {
+    "message": "Mga token grant",
+    "description": ""
+  },
+  "notificationTokenGrantText": {
+    "message": "May grant na naghihintay sa iyo.",
+    "description": ""
+  },
+  "notificationAdGrantTitle": {
+    "message": "Natanggap na kita sa Ads",
+    "description": ""
+  },
+  "notificationAdGrantText": {
+    "message": "Narito na ang iyong mga reward mula sa Brave Private Ads!",
+    "description": ""
+  },
+  "notificationMonthlyContributionFailedTitle": {
+    "message": "Hindi naiproseso ang buwanang kontribusyon",
+    "description": ""
+  },
+  "notificationInsufficientFundsText": {
+    "message": "Hindi makukumpleto ang iyong nakaiskedyul na buwanang pagbabayad para sa Awtomatikong Pag-ambag at mga buwanang kontribusyon dahil hindi sapat ang pondo. Susubukan namin ulit pagkalipas ng 30 araw.",
+    "description": ""
+  },
+  "notificationMonthlyContributionFailedText": {
+    "message": "Nagkaroon ng problema sa pagproseso sa iyong pag-ambag.",
+    "description": ""
+  },
+  "notificationMonthlyTipCompletedTitle": {
+    "message": "Mga kontribusyon at tip",
+    "description": ""
+  },
+  "notificationMonthlyTipCompletedText": {
+    "message": "Naiproseso na ang iyong mga buwanang kontribusyon",
+    "description": ""
+  },
+  "notificationPublisherVerifiedTitle": {
+    "message": "Nakabinbing kontribusyon",
+    "description": ""
+  },
+  "notificationPublisherVerifiedText": {
+    "message": "Kamakailang na-verify ang creator na si $publisher_name$.",
+    "description": "",
+    "placeholders": {
+      "publisher_name": {
+        "content": "$1"
+      }
+    }
+  },
+  "notificationPendingTipFailedTitle": {
+    "message": "Hindi sapat ang pondo",
+    "description": ""
+  },
+  "notificationPendingTipFailedText": {
+    "message": "Mayroon kang mga nakabinbing tip dahil sa hindi sapat na pondo",
+    "description": ""
+  },
+  "onboardingEarnHeader": {
+    "message": "Makakuha ng Mga Token at Gumanti ng Tulong",
+    "description": ""
+  },
+  "onboardingEarnText": {
+    "message": "Makakuha ng mga token sa pamamagitan ng pagtingin sa mga ad na gumagalang sa privacy at awtomatikong suportahan ang iyong mga paboritong site at creator ng content.",
+    "description": ""
+  },
+  "onboardingSetupAdsHeader": {
+    "message": "Gaano ka kadalas nakakakita ng mga ad?",
+    "description": ""
+  },
+  "onboardingSetupAdsSubheader": {
+    "message": "(mga ad bawat oras)",
+    "description": ""
+  },
+  "onboardingSetupContributeHeader": {
+    "message": "Gaano kalaking buwanang suporta ang gusto mong ibigay sa iyong mga paboritong creator?",
+    "description": ""
+  },
+  "onboardingSetupContributeSubheader": {
+    "message": "(mula sa iyong mga kinikita sa mga ad)",
+    "description": ""
+  },
+  "onboardingStartUsingRewards": {
+    "message": "Simulang gamitin ang Brave Rewards",
+    "description": ""
+  },
+  "onboardingTakeTour": {
+    "message": "Mabilis na maglibot",
+    "description": ""
+  },
+  "onboardingTerms": {
+    "message": "Sa pamamagitan ng pagpapatuloy, sumasang-ayon ka sa $tos_link_begin$Mga Tuntunin ng Serbisyo$tos_link_end$ at $pp_link_begin$Patakaran sa Privacy$pp_link_end$.",
+    "description": "",
+    "placeholders": {
+      "tos_link_begin": {
+        "content": "$1"
+      },
+      "tos_link_end": {
+        "content": "$2"
+      },
+      "pp_link_begin": {
+        "content": "$3"
+      },
+      "pp_link_end": {
+        "content": "$4"
+      }
+    }
+  },
+  "onboardingTourBack": {
+    "message": "Bumalik",
+    "description": ""
+  },
+  "onboardingTourBegin": {
+    "message": "Mabilisan tayong maglibot",
+    "description": ""
+  },
+  "onboardingTourContinue": {
+    "message": "Magpatuloy",
+    "description": ""
+  },
+  "onboardingTourDone": {
+    "message": "Tapos na",
+    "description": ""
+  },
+  "onboardingTourSkip": {
+    "message": "Laktawan",
+    "description": ""
+  },
+  "onboardingTourSkipForNow": {
+    "message": "Laktawan sa ngayon",
+    "description": ""
+  },
+  "onboardingPanelWelcomeHeader": {
+    "message": "Welcome sa Brave Rewards!",
+    "description": ""
+  },
+  "onboardingPanelWelcomeText": {
+    "message": "Hindi tulad ng mga tradisyonal na ad, binibigyan ka ng Brave Private Ads ng mga token para suportahan ang mga creator ng content, ang lahat ng ito habang pinapanatiling pribado ang iyong personal na impormasyon. ",
+    "description": ""
+  },
+  "onboardingPanelAdsHeader": {
+    "message": "Saan lumalabas ang mga ad?",
+    "description": ""
+  },
+  "onboardingPanelAdsText": {
+    "message": "Lalabas ang Brave Private Ads bilang normal na notification. Makokontrol mo kung gaano mo kadalas makikita ang mga ad na ito sa mga setting.",
+    "description": ""
+  },
+  "onboardingPanelScheduleHeader": {
+    "message": "Kailan ka makakatanggap ng mga reward?",
+    "description": ""
+  },
+  "onboardingPanelScheduleText": {
+    "message": "Darating sa ika-5 ng susunod na buwan ang iyong mga naipong token mula sa Brave Private Ads sa kabuuan ng kasalukuyang buwan.",
+    "description": ""
+  },
+  "onboardingPanelAcHeader": {
+    "message": "Ginawang walang kahirap-hirap ang pagganti ng tulong",
+    "description": ""
+  },
+  "onboardingPanelAcText": {
+    "message": "Awtomatikong natatanggap ng mga creator ang iyong mga iniambag na token batay sa mga antas ng pakikilahok mo na sinusukat namin bilang 'Paalala.'",
+    "description": ""
+  },
+  "onboardingPanelTippingHeader": {
+    "message": "Magpasalamat sa pamamagitan ng mga tip",
+    "description": ""
+  },
+  "onboardingPanelTippingText": {
+    "message": "Ang pagbibigay ng tip ay isang paraan para personal na himukin at suportahan ang content o mga creator na gusto mo. Magbigay ng tip!",
+    "description": ""
+  },
+  "onboardingPanelRedeemHeader": {
+    "message": "Ano ang magagawa mo sa mga token?",
+    "description": ""
+  },
+  "onboardingPanelRedeemText": {
+    "message": "Magagamit ang mga token hindi lang sa pagsuporta sa mga creator. Puwede kang bumili ng digital na content at iba pang produkto sa pagdating ng mga merchant.",
+    "description": ""
+  },
+  "onboardingPanelSetupHeader": {
+    "message": "Panghuli, tutulungan ka naming i-set up ang mga pangunahing setting",
+    "description": ""
+  },
+  "onboardingPanelSetupText": {
+    "message": "Puwede mo itong baguhin sa ibang pagkakataon.",
+    "description": ""
+  },
+  "onboardingPanelCompleteHeader": {
+    "message": "Ayos, handa ka na!",
+    "description": ""
+  },
+  "onboardingPanelCompleteText": {
+    "message": "Sa pamamagitan ng paggamit sa Brave Rewards, nakakatulong kang gawing mas magandang lugar ang web para sa lahat. At mabuti iyon!",
+    "description": ""
+  },
+  "onboardingPanelVerifyHeader": {
+    "message": "I-verify ang iyong wallet",
+    "description": ""
+  },
+  "onboardingPanelVerifySubtext": {
+    "message": "Para ma-withdraw ang mga token na nakuha mo para sa panonood ng mga ad, kakailanganin mong i-verify ang iyong wallet.",
+    "description": ""
+  },
+  "onboardingPanelVerifyLater": {
+    "message": "Gawin ito sa ibang pagkakataon",
+    "description": ""
+  },
+  "onboardingPanelVerifyNow": {
+    "message": "I-verify ang aking wallet",
+    "description": ""
+  },
+  "onboardingPanelBitflyerNote": {
+    "message": "Ang bitFlyer wallet ay isang serbisyong pinapamahalaan ng bitFlyer, Inc.",
+    "description": ""
+  },
+  "onboardingPanelBitflyerText": {
+    "message": "Sa pamamagitan ng pag-verify sa iyong wallet at pag-link nito sa isang bitFlyer account, madali mong maso-store at mapapamahalaan ang mga token na nakuha mo sa pamamagitan ng Brave Rewards",
+    "description": ""
+  },
+  "onboardingPanelBitflyerLearnMore": {
+    "message": "$link_begin$Matuto pa$link_end$ tungkol sa kung paano i-link ang iyong Brave browser sa bitFlyer account mo.",
+    "description": "",
+    "placeholders": {
+      "link_begin": {
+        "content": "$1"
+      },
+      "link_end": {
+        "content": "$2"
+      }
+    }
+  },
+  "captchaMaxAttemptsExceededText": {
+    "message": "Mukhang hindi ito gumagana, mananatiling naka-pause ang Brave Ads. Makipag-ugnayan sa amin kung kailangan mo ng tulong sa captcha.",
+    "description": ""
+  },
+  "captchaMaxAttemptsExceededTitle": {
+    "message": "Lumampas na sa maximum na bilang ng mga pagsubok",
+    "description": ""
+  },
+  "captchaSolvedTitle": {
+    "message": "Nalutas na!",
+    "description": ""
+  },
+  "captchaSolvedText": {
+    "message": "Magpapatuloy na ngayon ang Ads at mga kita. Salamat sa pagtulong sa aming protektahan ang Brave Rewards at mga ad na nakabatay sa privacy.",
+    "description": ""
+  },
+  "captchaContactSupport": {
+    "message": "Makipag-ugnayan sa suporta",
+    "description": ""
+  },
+  "captchaDismiss": {
+    "message": "Balewalain",
+    "description": ""
+  },
+  "braveTalkTurnOnRewardsToStartCall": {
+    "message": "Para magsimula ng libreng tawag, i-on ang Brave Rewards",
+    "description": ""
+  },
+  "braveTalkBraveRewardsDescription": {
+    "message": "Sa Brave Rewards, kikita ka ng mga token sa panonood ng mga pribadong ad (ligtas ang iyong data). Gawing cash o mga gift card ang mga token na iyon...o kaya'y gamitin ang mga ito para mag-tip sa mga website na gusto mo. Walang pagta-track. Walang pagbagal.",
+    "description": ""
+  },
+  "braveTalkTurnOnRewards": {
+    "message": "I-on ang Mga Reward",
+    "description": ""
+  },
+  "braveTalkOptInRewardsTerms": {
+    "message": "Sa pag-enable nito, sang-ayon ka sa $tos_link_begin$Mga Tuntunin ng Serbisyo$tos_link_end$ at $pp_link_begin$Patakaran sa Privacy$pp_link_end$.",
+    "description": "",
+    "placeholders": {
+      "tos_link_begin": {
+        "content": "$1"
+      },
+      "tos_link_end": {
+        "content": "$2"
+      },
+      "pp_link_begin": {
+        "content": "$3"
+      },
+      "pp_link_end": {
+        "content": "$4"
+      }
+    }
+  },
+  "braveTalkTurnOnPrivateAdsToStartCall": {
+    "message": "Para magsimula ng libreng tawag, i-on ang Brave Private Ads",
+    "description": ""
+  },
+  "braveTalkPrivateAdsDescription": {
+    "message": "Sa Brave Private Ads, kikita ka ng mga token sa panonood ng mga pribadong ad (ligtas ang iyong data). Gawing cash o mga gift card ang mga token na iyon...o kaya'y gamitin ang mga ito para mag-tip sa mga website na gusto mo. Walang pagta-track. Walang pagbagal.",
+    "description": ""
+  },
+  "braveTalkTurnOnPrivateAds": {
+    "message": "I-on ang Brave Private Ads",
+    "description": ""
+  },
+  "braveTalkCanStartFreeCall": {
+    "message": "Pwede ka nang magsimula ng libreng tawag",
+    "description": ""
+  },
+  "braveTalkClickAnywhereToBraveTalk": {
+    "message": "Mag-click o mag-tap saanman sa screen para ipagpatuloy ang Brave Talk.",
+    "description": ""
+  },
+  "braveTalkWantLearnMore": {
+    "message": "Gusto mo bang matuto pa tungkol sa Brave Rewards? $tour_link_begin$Mag-tour nang mabilis$tour_link_end$.",
+    "description": "",
+    "placeholders": {
+      "tour_link_begin": {
+        "content": "$1"
+      },
+      "tour_link_end": {
+        "content": "$2"
+      }
+    }
+  }
+}

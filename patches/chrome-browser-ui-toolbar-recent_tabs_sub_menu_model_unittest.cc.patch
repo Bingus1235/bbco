@@ -1,0 +1,13 @@
+diff --git a/chrome/browser/ui/toolbar/recent_tabs_sub_menu_model_unittest.cc b/chrome/browser/ui/toolbar/recent_tabs_sub_menu_model_unittest.cc
+index a4ae394c5f69a789617d2918f1e99c508d5d83f2..8312676c40ac3d9c7259bddf933db795f123137a 100644
+--- a/chrome/browser/ui/toolbar/recent_tabs_sub_menu_model_unittest.cc
++++ b/chrome/browser/ui/toolbar/recent_tabs_sub_menu_model_unittest.cc
+@@ -765,7 +765,7 @@ TEST_F(RecentTabsSubMenuModelTest, MaxTabsPerSessionAndRecency) {
+   // 5-8         <4 most-recent tabs of session>
+ 
+   TestRecentTabsSubMenuModel model(nullptr, browser());
+-  EXPECT_EQ(9, model.GetItemCount());
++  BRAVE_MAX_TABS_PER_SESSION_AND_RECENCY
+ 
+   std::vector<std::u16string> tab_titles =
+       recent_tabs_builder.GetTabTitlesSortedByRecency();

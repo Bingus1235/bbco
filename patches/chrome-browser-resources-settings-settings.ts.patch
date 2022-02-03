@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/resources/settings/settings.ts b/chrome/browser/resources/settings/settings.ts
+index 702cce067e6387f4d387dcb92a8306c1487f6d1e..32d4f1e6310a4357c60d9f7f5dfc062252a07911 100644
+--- a/chrome/browser/resources/settings/settings.ts
++++ b/chrome/browser/resources/settings/settings.ts
+@@ -2,6 +2,7 @@
+ // Use of this source code is governed by a BSD-style license that can be
+ // found in the LICENSE file.
+ 
++import './brave_overrides/index.js';
+ import './settings_ui/settings_ui.js';
+ 
+ export {CrButtonElement} from 'chrome://resources/cr_elements/cr_button/cr_button.m.js';

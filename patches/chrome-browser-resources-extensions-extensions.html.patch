@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/resources/extensions/extensions.html b/chrome/browser/resources/extensions/extensions.html
+index ecc17a85b6ecba98c1bfeb97a88d739289d016c9..ee88b081e49a75bba9a34571ca12659d8ce656bf 100644
+--- a/chrome/browser/resources/extensions/extensions.html
++++ b/chrome/browser/resources/extensions/extensions.html
+@@ -54,6 +54,7 @@
+       width: 100%;
+     }
+   </style>
++  <link rel="stylesheet" href="chrome://brave-resources/page_specific/extensions/extensions_loading_shim.css">
+   <script type="module" src="extensions.js"></script>
+ </head>
+ <body>

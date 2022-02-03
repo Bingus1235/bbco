@@ -1,0 +1,12 @@
+diff --git a/components/page_info/page_info.cc b/components/page_info/page_info.cc
+index 05e21918c0a7b7e071cd6778d678519ea45d18ec..d0b7683c662f9aabf4b37d2ab02ab8ea8d313b2c 100644
+--- a/components/page_info/page_info.cc
++++ b/components/page_info/page_info.cc
+@@ -963,6 +963,7 @@ void PageInfo::PresentSitePermissions() {
+       }
+     }
+ 
++    BRAVE_PAGE_INFO_SHOULD_SHOW_PERMISSION
+     if (ShouldShowPermission(
+             permission_info, site_url_, content_settings, web_contents_.get(),
+             HasContentSettingChangedViaPageInfo(permission_info.type),

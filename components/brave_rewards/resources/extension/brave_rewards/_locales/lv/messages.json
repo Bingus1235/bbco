@@ -1,0 +1,657 @@
+{
+  "summary": {
+    "message": "Kopsavilkums",
+    "description": ""
+  },
+  "tip": {
+    "message": "Dzeramnauda",
+    "description": ""
+  },
+  "unverifiedCreator": {
+    "message": "Neapstiprināts satura veidotājs",
+    "description": ""
+  },
+  "verifiedCreator": {
+    "message": "Apstiprināts satura veidotājs",
+    "description": ""
+  },
+  "refreshStatus": {
+    "message": "Atsvaidzināt",
+    "description": ""
+  },
+  "pendingTipText": {
+    "message": "Jebkura jūsu nosūtītā dzeramnauda makā paliks kā neapmaksāta un to vēlreiz automātiski mēģinās nosūtīt 90 dienas. $link_begin$Uzziniet vairāk$link_end$",
+    "description": "",
+    "placeholders": {
+      "link_begin": {
+        "content": "$1"
+      },
+      "link_end": {
+        "content": "$2"
+      }
+    }
+  },
+  "pendingTipTitle": {
+    "message": "Šis satura veidotājs vēl nav reģistrējies.",
+    "description": ""
+  },
+  "pendingTipTitleRegistered": {
+    "message": "Šis satura veidotājs šobrīd nav iestatījis dzeramnaudas saņemšanu no jūsu maka.",
+    "description": ""
+  },
+  "platformPublisherTitle": {
+    "message": "$name$ platformā $platform$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "platform": {
+        "content": "$2"
+      }
+    }
+  },
+  "attention": {
+    "message": "Uzmanību",
+    "description": ""
+  },
+  "sendTip": {
+    "message": "Nosūtīt dzeramnaudu",
+    "description": ""
+  },
+  "includeInAutoContribute": {
+    "message": "Iekļaut automātiskajā ziedošanā",
+    "description": ""
+  },
+  "monthlyContribution": {
+    "message": "Ikmēneša ieguldījums",
+    "description": ""
+  },
+  "ok": {
+    "message": "Labi",
+    "description": ""
+  },
+  "set": {
+    "message": "Iestatīt",
+    "description": ""
+  },
+  "changeAmount": {
+    "message": "Mainīt summu",
+    "description": ""
+  },
+  "cancel": {
+    "message": "Atcelt",
+    "description": ""
+  },
+  "grantCaptchaTitle": {
+    "message": "Apstipriniet, ka esat cilvēks",
+    "description": ""
+  },
+  "grantCaptchaFailedTitle": {
+    "message": "Hmm… Ne gluži. Mēģiniet vēlreiz.",
+    "description": ""
+  },
+  "grantCaptchaHint": {
+    "message": "Velciet BAT ikonu uz $hint$ mērķi.",
+    "description": "",
+    "placeholders": {
+      "hint": {
+        "content": "$1"
+      }
+    }
+  },
+  "grantCaptchaPassedTitleUGP": {
+    "message": "Jums šodien veicas!",
+    "description": ""
+  },
+  "grantCaptchaPassedTextUGP": {
+    "message": "Drīzumā saņemsiet savu marķiera piešķīrumu.",
+    "description": ""
+  },
+  "grantCaptchaAmountUGP": {
+    "message": "Bezmaksas marķiera piešķīrums",
+    "description": ""
+  },
+  "grantCaptchaPassedTitleAds": {
+    "message": "Jūs esat nopelnījis Ads Reward!",
+    "description": ""
+  },
+  "grantCaptchaPassedTextAds": {
+    "message": "Jūsu atlīdzība ir ceļā uz Brave Rewards maku.",
+    "description": ""
+  },
+  "grantCaptchaAmountAds": {
+    "message": "Jūsu atlīdzības summa",
+    "description": ""
+  },
+  "grantCaptchaExpiration": {
+    "message": "Piešķīruma derīguma beigu termiņš",
+    "description": ""
+  },
+  "grantCaptchaErrorTitle": {
+    "message": "Ak vai, šķiet, radās kļūda. Lūdzu, mēģiniet vēlreiz vēlāk.",
+    "description": ""
+  },
+  "grantCaptchaErrorText": {
+    "message": "Radusies kļūda saistībā ar Brave balvām. Lūdzu, mēģiniet vēlreiz vēlāk.",
+    "description": ""
+  },
+  "rewardsPaymentCheckStatus": {
+    "message": "Pārbaudīt statusu",
+    "description": ""
+  },
+  "rewardsPaymentCompleted": {
+    "message": "Apsveicam! Jūsu $month$ atlīdzības ir pieejamas!",
+    "description": "",
+    "placeholders": {
+      "month": {
+        "content": "$1"
+      }
+    }
+  },
+  "rewardsPaymentPending": {
+    "message": "Jūsu $amount$ $month$ atlīdzības būs pieejamas pēc $days$",
+    "description": "",
+    "placeholders": {
+      "amount": {
+        "content": "$1"
+      },
+      "month": {
+        "content": "$2"
+      },
+      "days": {
+        "content": "$3"
+      }
+    }
+  },
+  "rewardsPaymentProcessing": {
+    "message": "Jūsu $amount$ $month$ atlīdzības ir ceļā. Gaidiet!",
+    "description": "",
+    "placeholders": {
+      "amount": {
+        "content": "$1"
+      },
+      "month": {
+        "content": "$2"
+      }
+    }
+  },
+  "walletAccountLink": {
+    "message": "Doties uz manu $provider$ kontu",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletAddFunds": {
+    "message": "Pievienot līdzekļus",
+    "description": ""
+  },
+  "walletAutoContribute": {
+    "message": "Automātiska ziedošana",
+    "description": ""
+  },
+  "walletCompleteVerificationLink": {
+    "message": "Doties uz $provider$, lai pabeigtu verifikāciju",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletCompleteVerificationText": {
+    "message": "Pabeidziet identitātes verifikāciju, lai sāktu saņemt balvas.",
+    "description": ""
+  },
+  "walletDisconnected": {
+    "message": "Izrakstījies",
+    "description": ""
+  },
+  "walletDisconnectLink": {
+    "message": "Atvienoties no $provider$",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletEstimatedEarnings": {
+    "message": "Aptuvenā peļņa",
+    "description": ""
+  },
+  "walletLogIntoYourAccount": {
+    "message": "Ejiet uz savu $provider$ kontu",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletMonthlyTips": {
+    "message": "Ikmēneša dzeramnaudas",
+    "description": ""
+  },
+  "walletMyWallet": {
+    "message": "Mans maks",
+    "description": ""
+  },
+  "walletOneTimeTips": {
+    "message": "Vienreizējās dzeramnaudas",
+    "description": ""
+  },
+  "walletPending": {
+    "message": "Gaida",
+    "description": ""
+  },
+  "walletRewardsFromAds": {
+    "message": "Peļņa no reklāmām",
+    "description": ""
+  },
+  "walletRewardsSummary": {
+    "message": "Balvu kopsavilkums",
+    "description": ""
+  },
+  "walletVerified": {
+    "message": "Pārbaudīts",
+    "description": ""
+  },
+  "walletVerify": {
+    "message": "Verificēt maku",
+    "description": ""
+  },
+  "walletYourBalance": {
+    "message": "Jūsu atlikums",
+    "description": ""
+  },
+  "notificationAddFunds": {
+    "message": "Pievienot līdzekļus",
+    "description": ""
+  },
+  "notificationReconnect": {
+    "message": "Atkārtoti izveidot savienojumu",
+    "description": ""
+  },
+  "notificationClaim": {
+    "message": "Pieprasīt",
+    "description": ""
+  },
+  "notificationAddFundsTitle": {
+    "message": "Nepietiek līdzekļu",
+    "description": ""
+  },
+  "notificationAddFundsText": {
+    "message": "Veiciet iemaksu savā Brave balvu kontā.",
+    "description": ""
+  },
+  "notificationAutoContributeCompletedTitle": {
+    "message": "Automātiska ziedošana",
+    "description": ""
+  },
+  "notificationAutoContributeCompletedText": {
+    "message": "Jūs ieguldījāt $amount$.",
+    "description": "",
+    "placeholders": {
+      "amount": {
+        "content": "$1"
+      }
+    }
+  },
+  "notificationBackupWalletTitle": {
+    "message": "Maka dublēšana",
+    "description": ""
+  },
+  "notificationBackupWalletText": {
+    "message": "Lūdzu, izveidojiet sava Brave maka dublējumkopiju.",
+    "description": ""
+  },
+  "notificationBackupWalletAction": {
+    "message": "Dublēt tagad",
+    "description": ""
+  },
+  "notificationWalletDisconnectedTitle": {
+    "message": "Jūsu maks ir izrakstīts",
+    "description": ""
+  },
+  "notificationWalletDisconnectedText": {
+    "message": "Tā var notikt, lai saglabātu jūsu konta drošību. Noklikšķiniet tālāk, lai tagad atkārtoti izveidotu savienojumu.",
+    "description": ""
+  },
+  "notificationWalletDisconnectedAction": {
+    "message": "Atkārtoti izveidot savienojumu",
+    "description": ""
+  },
+  "notificationWalletVerifiedTitle": {
+    "message": "Jūsu maks ir verificēts!",
+    "description": ""
+  },
+  "notificationWalletVerifiedText": {
+    "message": "Jūsu $provider$ maks tika sekmīgi verificēts un ir gatavs līdzekļu pievienošanai un izņemšanai.",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "notificationTokenGrantTitle": {
+    "message": "Marķieru piešķīrumi",
+    "description": ""
+  },
+  "notificationTokenGrantText": {
+    "message": "Jums pieejams viens piešķīrums.",
+    "description": ""
+  },
+  "notificationAdGrantTitle": {
+    "message": "Saņemtā peļņa no reklāmām",
+    "description": ""
+  },
+  "notificationAdGrantText": {
+    "message": "Jūsu peļņa no Brave privātajām reklāmām ir klāt!",
+    "description": ""
+  },
+  "notificationMonthlyContributionFailedTitle": {
+    "message": "Ikmēneša ziedojumu veikt neizdevās",
+    "description": ""
+  },
+  "notificationInsufficientFundsText": {
+    "message": "Jūsu ieplānotais ikmēneša maksājums automātiskai ziedošanai un ikmēneša ziedojums nevarēja tikt izpildīts nepietiekamu līdzekļu dēļ. Mēs mēģināsim vēlreiz pēc 30 dienām. ",
+    "description": ""
+  },
+  "notificationMonthlyContributionFailedText": {
+    "message": "Apstrādājot jūsu ieguldījumu, radās kļūda.",
+    "description": ""
+  },
+  "notificationMonthlyTipCompletedTitle": {
+    "message": "Ziedojumi un dzeramnauda",
+    "description": ""
+  },
+  "notificationMonthlyTipCompletedText": {
+    "message": "Jūsu ikmēneša ziedojumi ir apstrādāti.",
+    "description": ""
+  },
+  "notificationPublisherVerifiedTitle": {
+    "message": "Gaidāmais ziedojums",
+    "description": ""
+  },
+  "notificationPublisherVerifiedText": {
+    "message": "Satura veidotājs $publisher_name$ ir nesen apstiprināts.",
+    "description": "",
+    "placeholders": {
+      "publisher_name": {
+        "content": "$1"
+      }
+    }
+  },
+  "notificationPendingTipFailedTitle": {
+    "message": "Nepietiek līdzekļu",
+    "description": ""
+  },
+  "notificationPendingTipFailedText": {
+    "message": "Jums ir nesamaksātas dzeramnaudas nepietiekamu līdzekļu dēļ",
+    "description": ""
+  },
+  "onboardingEarnHeader": {
+    "message": "Pelnīt žetonus un Atdot atpakaļ",
+    "description": ""
+  },
+  "onboardingEarnText": {
+    "message": "Nopelniet žetonus, apskatot konfidencialitāti cienošas reklāmas, un automātiski atbalstiet savas iecienītākās vietnes un veidotājus.",
+    "description": ""
+  },
+  "onboardingSetupAdsHeader": {
+    "message": "Cik bieži vēlaties redzēt reklāmas?",
+    "description": ""
+  },
+  "onboardingSetupAdsSubheader": {
+    "message": "(reklāmas stundā)",
+    "description": ""
+  },
+  "onboardingSetupContributeHeader": {
+    "message": "Cik lielu atbalstu katru mēnesi vēlaties sniegt saviem iecienītākajiem satura veidotājiem?",
+    "description": ""
+  },
+  "onboardingSetupContributeSubheader": {
+    "message": "(no savas reklāmu peļņas)",
+    "description": ""
+  },
+  "onboardingStartUsingRewards": {
+    "message": "Sākt izmantot Brave Rewards",
+    "description": ""
+  },
+  "onboardingTakeTour": {
+    "message": "Izejiet ātru tūri",
+    "description": ""
+  },
+  "onboardingTerms": {
+    "message": "Turpinot jūs piekrītat $tos_link_begin$pakalpojumu sniegšanas noteikumiem$tos_link_end$ un $pp_link_begin$konfidencialitātes politikai$pp_link_end$.",
+    "description": "",
+    "placeholders": {
+      "tos_link_begin": {
+        "content": "$1"
+      },
+      "tos_link_end": {
+        "content": "$2"
+      },
+      "pp_link_begin": {
+        "content": "$3"
+      },
+      "pp_link_end": {
+        "content": "$4"
+      }
+    }
+  },
+  "onboardingTourBack": {
+    "message": "Doties atpakaļ",
+    "description": ""
+  },
+  "onboardingTourBegin": {
+    "message": "Iziesim ātru tūri",
+    "description": ""
+  },
+  "onboardingTourContinue": {
+    "message": "Turpināt",
+    "description": ""
+  },
+  "onboardingTourDone": {
+    "message": "Pabeigts",
+    "description": ""
+  },
+  "onboardingTourSkip": {
+    "message": "Izlaist",
+    "description": ""
+  },
+  "onboardingTourSkipForNow": {
+    "message": "Pagaidām izlaist",
+    "description": ""
+  },
+  "onboardingPanelWelcomeHeader": {
+    "message": "Laipni lūdzam pakalpojumā Brave Rewards!",
+    "description": ""
+  },
+  "onboardingPanelWelcomeText": {
+    "message": "Brave privātās reklāmas atalgo jūs ar žetoniem, atbalstot satura veidotājus, atšķirībā no parastajām reklāmām, vienlaikus ievērojot jūsu personiskās informācijas konfidencialitāti.",
+    "description": ""
+  },
+  "onboardingPanelAdsHeader": {
+    "message": "Kur tiek rādītas reklāmas?",
+    "description": ""
+  },
+  "onboardingPanelAdsText": {
+    "message": "Brave privātās reklāmas tiks rādītas kā parasts paziņojums. To, cik bieži redzat šīs reklāmas, jūs kontrolējat iestatījumos.",
+    "description": ""
+  },
+  "onboardingPanelScheduleHeader": {
+    "message": "Kad jūs saņemat balvas",
+    "description": ""
+  },
+  "onboardingPanelScheduleText": {
+    "message": "Jūsu nopelnītie žetoni par Brave privātajām reklāmām visā šī mēneša laikā tiks saņemti nākamā mēneša 5. datumā.",
+    "description": ""
+  },
+  "onboardingPanelAcHeader": {
+    "message": "Vienkārša atdošana",
+    "description": ""
+  },
+  "onboardingPanelAcText": {
+    "message": "Veidotāji jūsu žetonu ziedojumus saņem automātiski, pamatojoties uz jūsu iesaistes līmeņiem, kurus mēs mērām kā “Attention”.",
+    "description": ""
+  },
+  "onboardingPanelTippingHeader": {
+    "message": "Pateicieties ar dzeramnaudu",
+    "description": ""
+  },
+  "onboardingPanelTippingText": {
+    "message": "Dzeramnauda ir veids, kā personīgi iedrošināt un atbalstīt jūsu iecienītāko saturu vai veidotājus. Piešķiriet dzeramnaudu!",
+    "description": ""
+  },
+  "onboardingPanelRedeemHeader": {
+    "message": "Ko jūs varat darīt ar žetoniem?",
+    "description": ""
+  },
+  "onboardingPanelRedeemText": {
+    "message": "Žetonus var izmantot, ne tikai atbalstot veidotājus. Varat iegādāties digitālo saturu un citas preces, kad pievienojas tirgotāji.",
+    "description": ""
+  },
+  "onboardingPanelSetupHeader": {
+    "message": "Visbeidzot izveidosim jums pamata iestatījumus",
+    "description": ""
+  },
+  "onboardingPanelSetupText": {
+    "message": "Vēlāk varēsiet to mainīt.",
+    "description": ""
+  },
+  "onboardingPanelCompleteHeader": {
+    "message": "Hei, jūs esat gatavs!",
+    "description": ""
+  },
+  "onboardingPanelCompleteText": {
+    "message": "Izmantojot Brave Rewards, jūs palīdzat tīmekli padarīt par labāku vietu ikvienam. Tas ir lieliski!",
+    "description": ""
+  },
+  "onboardingPanelVerifyHeader": {
+    "message": "Verificējiet savu maku",
+    "description": ""
+  },
+  "onboardingPanelVerifySubtext": {
+    "message": "Lai izņemtu žetonus, ko nopelnījāt, skatoties reklāmas, jums būs jāveic sava maka verifikācija.",
+    "description": ""
+  },
+  "onboardingPanelVerifyLater": {
+    "message": "Izdarīt to vēlāk",
+    "description": ""
+  },
+  "onboardingPanelVerifyNow": {
+    "message": "Verificēt maku",
+    "description": ""
+  },
+  "onboardingPanelBitflyerNote": {
+    "message": "bitFlyer maks ir pakalpojums, ko pārvalda bitFlyer, Inc.",
+    "description": ""
+  },
+  "onboardingPanelBitflyerText": {
+    "message": "Pēc jūsu maka verifikācijas un savienošanas ar bitFlyer kontu jūs varēsit vienkāršāk uzglabāt un pārvaldīt tokenus, izmantojot Brave Rewards",
+    "description": ""
+  },
+  "onboardingPanelBitflyerLearnMore": {
+    "message": "$link_begin$Uzziniet vairāk$link_end$ par Brave pārlūka saistīšanu ar bitFlyer kontu.",
+    "description": "",
+    "placeholders": {
+      "link_begin": {
+        "content": "$1"
+      },
+      "link_end": {
+        "content": "$2"
+      }
+    }
+  },
+  "captchaMaxAttemptsExceededText": {
+    "message": "Šķiet, ka neizdodas, Brave Ads darbība tiks apturēta. Sazinieties ar mums, ja jums nepieciešama palīdzība ar Captcha uzdevumu.",
+    "description": ""
+  },
+  "captchaMaxAttemptsExceededTitle": {
+    "message": "Pārsniegts maksimālais mēģinājumu skaits",
+    "description": ""
+  },
+  "captchaSolvedTitle": {
+    "message": "Atrisināts!",
+    "description": ""
+  },
+  "captchaSolvedText": {
+    "message": "Reklāmas un peļņas gūšana tiks atsākta. Paldies, ka palīdzat mums aizsargāt Brave Rewards un uz konfidencialitāti balstītās reklāmas.",
+    "description": ""
+  },
+  "captchaContactSupport": {
+    "message": "Sazinieties ar atbalsta dienestu",
+    "description": ""
+  },
+  "captchaDismiss": {
+    "message": "Noraidīt",
+    "description": ""
+  },
+  "braveTalkTurnOnRewardsToStartCall": {
+    "message": "Lai sāktu bezmaksas zvanu, ieslēdziet Brave balvas.",
+    "description": ""
+  },
+  "braveTalkBraveRewardsDescription": {
+    "message": "Ar Brave balvām jūs nopelnāt marķierus, skatoties privātas reklāmas (jūsu dati ir drošībā). Pārvērtiet šos marķierus naudā, dāvanu kartēs... vai pat nosūtiet dzeramnaudu vietnēm, kuras jums patīk. Bez izsekošanas. Bez palēninātas darbības.",
+    "description": ""
+  },
+  "braveTalkTurnOnRewards": {
+    "message": "Ieslēgt balvas",
+    "description": ""
+  },
+  "braveTalkOptInRewardsTerms": {
+    "message": "Iespējojot jūs piekrītat $tos_link_begin$Pakalpojumu noteikumiem$tos_link_end$ un $pp_link_begin$Privātuma politikai $pp_link_end$.",
+    "description": "",
+    "placeholders": {
+      "tos_link_begin": {
+        "content": "$1"
+      },
+      "tos_link_end": {
+        "content": "$2"
+      },
+      "pp_link_begin": {
+        "content": "$3"
+      },
+      "pp_link_end": {
+        "content": "$4"
+      }
+    }
+  },
+  "braveTalkTurnOnPrivateAdsToStartCall": {
+    "message": "Lai sāktu bezmaksas zvanu, iespējojiet Brave privātās reklāmas.",
+    "description": ""
+  },
+  "braveTalkPrivateAdsDescription": {
+    "message": "Ar Brave privātajām reklāmām jūs nopelnāt marķierus, skatoties privātas reklāmas (jūsu dati ir drošībā). Pārvērtiet šos marķierus naudā, dāvanu kartēs... vai pat nosūtiet dzeramnaudu vietnēm, kuras jums patīk. Bez izsekošanas. Bez palēninātas darbības.",
+    "description": ""
+  },
+  "braveTalkTurnOnPrivateAds": {
+    "message": "Ieslēgt Brave privātās reklāmas.",
+    "description": ""
+  },
+  "braveTalkCanStartFreeCall": {
+    "message": "Tagad varat sākt bezmaksas zvanu.",
+    "description": ""
+  },
+  "braveTalkClickAnywhereToBraveTalk": {
+    "message": "Noklikšķiniet vai pieskarieties jebkur uz ekrāna, lai atvērtu Brave Talk.",
+    "description": ""
+  },
+  "braveTalkWantLearnMore": {
+    "message": "Vai vēlaties uzzināt vairāk par Brave balvām? $tour_link_begin$Iziejiet ātru iepazīšanās kursu$tour_link_end$.",
+    "description": "",
+    "placeholders": {
+      "tour_link_begin": {
+        "content": "$1"
+      },
+      "tour_link_end": {
+        "content": "$2"
+      }
+    }
+  }
+}

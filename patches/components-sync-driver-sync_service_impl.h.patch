@@ -1,0 +1,12 @@
+diff --git a/components/sync/driver/sync_service_impl.h b/components/sync/driver/sync_service_impl.h
+index 15f4cca7f488b285b99be2a13639921180cce411..69ca3283484854fe2cccdf9f1b19a2af1115e0ac 100644
+--- a/components/sync/driver/sync_service_impl.h
++++ b/components/sync/driver/sync_service_impl.h
+@@ -260,6 +260,7 @@ class SyncServiceImpl : public SyncService,
+ 
+   SyncClient* GetSyncClientForTest();
+ 
++  BRAVE_SYNC_SERVICE_IMPL_H_
+  private:
+   enum UnrecoverableErrorReason {
+     ERROR_REASON_ENGINE_INIT_FAILURE,

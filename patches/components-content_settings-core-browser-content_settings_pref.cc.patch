@@ -1,0 +1,12 @@
+diff --git a/components/content_settings/core/browser/content_settings_pref.cc b/components/content_settings/core/browser/content_settings_pref.cc
+index 8a31604c0e124aaab88d7d7bfc3064cee0ed323c..f41646ea2cb926fe8c486938ebfc9e4e17cc0c0f 100644
+--- a/components/content_settings/core/browser/content_settings_pref.cc
++++ b/components/content_settings/core/browser/content_settings_pref.cc
+@@ -164,6 +164,7 @@ bool ContentSettingsPref::SetWebsiteSetting(
+   DCHECK(thread_checker_.CalledOnValidThread());
+   DCHECK(prefs_);
+   DCHECK(primary_pattern != ContentSettingsPattern::Wildcard() ||
++         BRAVE_SET_WEBSITE_SETTING
+          secondary_pattern != ContentSettingsPattern::Wildcard());
+ 
+   // At this point take the ownership of the |in_value|.

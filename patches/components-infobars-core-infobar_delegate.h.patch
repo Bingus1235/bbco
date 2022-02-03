@@ -1,0 +1,12 @@
+diff --git a/components/infobars/core/infobar_delegate.h b/components/infobars/core/infobar_delegate.h
+index 5d89e3019138486eaa0c447bb25795b27c121aad..a0949e785beca47d62ac6fe268c9d1a1bcf78ff5 100644
+--- a/components/infobars/core/infobar_delegate.h
++++ b/components/infobars/core/infobar_delegate.h
+@@ -176,6 +176,7 @@ class InfoBarDelegate {
+     AUTOFILL_OFFER_NOTIFICATION_INFOBAR_DELEGATE = 105,
+     AUTOFILL_ADDRESS_PROFILE_INFOBAR_DELEGATE_IOS = 106,
+     ADD_TO_READING_LIST_IOS = 107,
++    BRAVE_INFOBAR_DELEGATE_IDENTIFIERS
+   };
+ 
+   // Describes navigation events, used to decide whether infobars should be

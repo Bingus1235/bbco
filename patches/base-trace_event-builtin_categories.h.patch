@@ -1,0 +1,12 @@
+diff --git a/base/trace_event/builtin_categories.h b/base/trace_event/builtin_categories.h
+index f6f346bbc56d4a1f8693330b010fd4b3c2d28628..c480d54ced7f2763ae9b2a26904cc22a44685bf1 100644
+--- a/base/trace_event/builtin_categories.h
++++ b/base/trace_event/builtin_categories.h
+@@ -174,6 +174,7 @@
+   X("WebCore")                                                           \
+   X("webrtc")                                                            \
+   X("xr")                                                                \
++  BRAVE_INTERNAL_TRACE_LIST_BUILTIN_CATEGORIES(X) /*see chromium_src*/   \
+   X(TRACE_DISABLED_BY_DEFAULT("android_view_hierarchy"))                 \
+   X(TRACE_DISABLED_BY_DEFAULT("animation-worklet"))                      \
+   X(TRACE_DISABLED_BY_DEFAULT("audio"))                                  \

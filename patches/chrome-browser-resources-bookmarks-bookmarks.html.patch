@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/resources/bookmarks/bookmarks.html b/chrome/browser/resources/bookmarks/bookmarks.html
+index 251e3cb3f0f88067b7d6557dc3128c59dab6e3cb..e1f87a889cf4d4610f9538a6ef2deaf17dec8976 100644
+--- a/chrome/browser/resources/bookmarks/bookmarks.html
++++ b/chrome/browser/resources/bookmarks/bookmarks.html
+@@ -30,6 +30,7 @@
+       height: var(--md-toolbar-height);
+     }
+   </style>
++  <link rel="stylesheet" href="chrome://brave-resources/page_specific/bookmarks/bookmarks_loading_shim.css">
+ </head>
+ <body>
+   <bookmarks-app></bookmarks-app>

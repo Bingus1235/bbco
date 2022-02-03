@@ -1,0 +1,12 @@
+diff --git a/components/sync_device_info/BUILD.gn b/components/sync_device_info/BUILD.gn
+index b51c11cc11aff673093b083a60ef33ab459e3bc9..565ae0d66a1a6e9fb519835c290e3b8504f06040 100644
+--- a/components/sync_device_info/BUILD.gn
++++ b/components/sync_device_info/BUILD.gn
+@@ -85,6 +85,7 @@ static_library("sync_device_info") {
+       "//chromeos/system",
+     ]
+   }
++  sources += brave_components_sync_device_info_sources deps += brave_components_sync_device_info_deps
+ }
+ 
+ static_library("test_support") {

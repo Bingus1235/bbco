@@ -1,0 +1,20 @@
+diff --git a/third_party/blink/renderer/core/html/media/autoplay_policy.cc b/third_party/blink/renderer/core/html/media/autoplay_policy.cc
+index 363e174bdf4aad61c245a070bcf5d1be22cc3432..c9a0c401d5bc9600cdb1a886231bf15a926d6b3b 100644
+--- a/third_party/blink/renderer/core/html/media/autoplay_policy.cc
++++ b/third_party/blink/renderer/core/html/media/autoplay_policy.cc
+@@ -63,6 +63,7 @@ bool ComputeLockPendingUserGestureRequired(const Document& document) {
+ // static
+ AutoplayPolicy::Type AutoplayPolicy::GetAutoplayPolicyForDocument(
+     const Document& document) {
++  BRAVE_GET_AUTOPLAY_POLICY_FOR_DOCUMENT
+   if (!document.GetSettings())
+     return Type::kNoUserGestureRequired;
+ 
+@@ -310,6 +311,7 @@ void AutoplayPolicy::TryUnlockingUserGesture() {
+ bool AutoplayPolicy::IsGestureNeededForPlayback() const {
+   if (!IsLockedPendingUserGesture())
+     return false;
++  BRAVE_AUTOPLAY_POLICY_IS_GESTURE_NEEDED_FOR_PLAYBACK
+ 
+   // We want to allow muted video to autoplay if the element is allowed to
+   // autoplay muted.

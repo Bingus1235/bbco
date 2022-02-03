@@ -1,0 +1,12 @@
+diff --git a/ios/chrome/browser/prefs/browser_prefs.mm b/ios/chrome/browser/prefs/browser_prefs.mm
+index 9a0f24a5dee9512adeb804b62e5614d67b00fa1b..a8cf4bf0d0c10258fcc867c2474d0984e18a3f20 100644
+--- a/ios/chrome/browser/prefs/browser_prefs.mm
++++ b/ios/chrome/browser/prefs/browser_prefs.mm
+@@ -305,6 +305,7 @@ void RegisterBrowserStatePrefs(user_prefs::PrefRegistrySyncable* registry) {
+ 
+   // Preference related to the browser sign-in policy that is being deprecated.
+   registry->RegisterBooleanPref(kSigninAllowedByPolicy, true);
++  BRAVE_REGISTER_BROWSER_STATE_PREFS
+ }
+ 
+ // This method should be periodically pruned of year+ old migrations.

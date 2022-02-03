@@ -1,0 +1,21 @@
+diff --git a/chrome/browser/profiles/profile.cc b/chrome/browser/profiles/profile.cc
+index a13f2fda30aacced895832db8e13ebeb0e4a7124..269d03c52d7e7b95c81f9acc2ec5559a77eb5a13 100644
+--- a/chrome/browser/profiles/profile.cc
++++ b/chrome/browser/profiles/profile.cc
+@@ -98,6 +98,7 @@ bool Profile::OTRProfileID::AllowsBrowserWindows() const {
+   // DevTools::BrowserContext and MediaRouter::Presentation are an
+   // exception to this ban.
+   return *this == PrimaryID() ||
++         BRAVE_ALLOWS_BROWSER_WINDOWS
+          base::StartsWith(profile_id_, kDevToolsOTRProfileIDPrefix,
+                           base::CompareCase::SENSITIVE) ||
+          base::StartsWith(profile_id_, kMediaRouterOTRProfileIDPrefix,
+@@ -277,7 +278,7 @@ const char Profile::kProfileKey[] = "__PROFILE__";
+ void Profile::RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
+   registry->RegisterBooleanPref(
+       prefs::kSearchSuggestEnabled,
+-      true,
++      false,
+       user_prefs::PrefRegistrySyncable::SYNCABLE_PREF);
+ #if defined(OS_ANDROID)
+   registry->RegisterStringPref(

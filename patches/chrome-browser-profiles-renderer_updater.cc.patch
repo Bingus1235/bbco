@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/profiles/renderer_updater.cc b/chrome/browser/profiles/renderer_updater.cc
+index 92ea233746f672e49d66f92f8000c161061340f3..78eb830bfdd12009a9105229b205a375163c996f 100644
+--- a/chrome/browser/profiles/renderer_updater.cc
++++ b/chrome/browser/profiles/renderer_updater.cc
+@@ -58,6 +58,7 @@ void GetGuestViewDefaultContentSettingRules(
+       base::Value::FromUniquePtrValue(
+           content_settings::ContentSettingToValue(CONTENT_SETTING_BLOCK)),
+       std::string(), incognito));
++  BRAVE_GET_GUEST_VIEW_DEFAULT_CONTENT_SETTING_RULES
+ }
+ 
+ #endif  // BUILDFLAG(ENABLE_EXTENSIONS)

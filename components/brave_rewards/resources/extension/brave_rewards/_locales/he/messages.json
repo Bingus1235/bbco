@@ -1,0 +1,657 @@
+{
+  "summary": {
+    "message": "סיכום",
+    "description": ""
+  },
+  "tip": {
+    "message": "טיפ",
+    "description": ""
+  },
+  "unverifiedCreator": {
+    "message": "יוצר בלתי מאומת",
+    "description": ""
+  },
+  "verifiedCreator": {
+    "message": "יוצר מאומת",
+    "description": ""
+  },
+  "refreshStatus": {
+    "message": "רענון",
+    "description": ""
+  },
+  "pendingTipText": {
+    "message": "כל טיפ שתתן ישאר בהמתנה בארנקך ויעשה נסיון חוזר במהלך 90 יום. $link_begin$למידע נוסף$link_end$",
+    "description": "",
+    "placeholders": {
+      "link_begin": {
+        "content": "$1"
+      },
+      "link_end": {
+        "content": "$2"
+      }
+    }
+  },
+  "pendingTipTitle": {
+    "message": "היוצר הזה עדיין לא נרשם.",
+    "description": ""
+  },
+  "pendingTipTitleRegistered": {
+    "message": "יוצר זה אינו מוגדר כרגע לקבל טיפים מהארנק שלך.",
+    "description": ""
+  },
+  "platformPublisherTitle": {
+    "message": "$name$ ב-$platform$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "platform": {
+        "content": "$2"
+      }
+    }
+  },
+  "attention": {
+    "message": "שימו לב",
+    "description": ""
+  },
+  "sendTip": {
+    "message": "שלח טיפ",
+    "description": ""
+  },
+  "includeInAutoContribute": {
+    "message": "כלול בתרומות העצמיות",
+    "description": ""
+  },
+  "monthlyContribution": {
+    "message": "תרומה חודשית",
+    "description": ""
+  },
+  "ok": {
+    "message": "אישור",
+    "description": ""
+  },
+  "set": {
+    "message": "הגדר",
+    "description": ""
+  },
+  "changeAmount": {
+    "message": "שנה סכום",
+    "description": ""
+  },
+  "cancel": {
+    "message": "ביטול",
+    "description": ""
+  },
+  "grantCaptchaTitle": {
+    "message": "אשר שאתה בן אדם",
+    "description": ""
+  },
+  "grantCaptchaFailedTitle": {
+    "message": "מממ ... לא ממש. נסו שוב.",
+    "description": ""
+  },
+  "grantCaptchaHint": {
+    "message": "גרור את סמל BAT ליעד $hint$.",
+    "description": "",
+    "placeholders": {
+      "hint": {
+        "content": "$1"
+      }
+    }
+  },
+  "grantCaptchaPassedTitleUGP": {
+    "message": "זהו יום המזל שלכם!",
+    "description": ""
+  },
+  "grantCaptchaPassedTextUGP": {
+    "message": "מענק האסימון שלכם בדרכו אליכם.",
+    "description": ""
+  },
+  "grantCaptchaAmountUGP": {
+    "message": "מענק אסימון חינם ",
+    "description": ""
+  },
+  "grantCaptchaPassedTitleAds": {
+    "message": "הרווחת תגמול פרסומות!",
+    "description": ""
+  },
+  "grantCaptchaPassedTextAds": {
+    "message": "התגמול שלך בדרך לארנק תגמולי ה-Brave שלך.",
+    "description": ""
+  },
+  "grantCaptchaAmountAds": {
+    "message": "סכום התגמול שלך",
+    "description": ""
+  },
+  "grantCaptchaExpiration": {
+    "message": "תאריך תפוגת מענק",
+    "description": ""
+  },
+  "grantCaptchaErrorTitle": {
+    "message": "אופס, משהו לא בסדר. אנא נסו שוב מאוחר יותר.",
+    "description": ""
+  },
+  "grantCaptchaErrorText": {
+    "message": "Brave Rewards נתקל בבעיה. אנא נסו שוב מאוחר יותר.",
+    "description": ""
+  },
+  "rewardsPaymentCheckStatus": {
+    "message": "בדקו את המצב",
+    "description": ""
+  },
+  "rewardsPaymentCompleted": {
+    "message": "התגמולים שלכם עבור $month$ הגיעו!",
+    "description": "",
+    "placeholders": {
+      "month": {
+        "content": "$1"
+      }
+    }
+  },
+  "rewardsPaymentPending": {
+    "message": "$amount$ התגמולים שלכם עבור $month$ יגיעו בעוד $days$.",
+    "description": "",
+    "placeholders": {
+      "amount": {
+        "content": "$1"
+      },
+      "month": {
+        "content": "$2"
+      },
+      "days": {
+        "content": "$3"
+      }
+    }
+  },
+  "rewardsPaymentProcessing": {
+    "message": "$amount$ התגמולים שלכם עבור $month$ בדרך. שימו לב!",
+    "description": "",
+    "placeholders": {
+      "amount": {
+        "content": "$1"
+      },
+      "month": {
+        "content": "$2"
+      }
+    }
+  },
+  "walletAccountLink": {
+    "message": "עבור לחשבון ה-$provider$ שלי",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletAddFunds": {
+    "message": "הוספת כספים",
+    "description": ""
+  },
+  "walletAutoContribute": {
+    "message": "תרומה אוטומטית",
+    "description": ""
+  },
+  "walletCompleteVerificationLink": {
+    "message": "עבור אל $provider$ כדי להשלים את האימות",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletCompleteVerificationText": {
+    "message": "השלם את אימות הזהות על מנת להתחיל לקבל תגמולים.",
+    "description": ""
+  },
+  "walletDisconnected": {
+    "message": "התנתק",
+    "description": ""
+  },
+  "walletDisconnectLink": {
+    "message": "התנתקו מ-$provider$",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletEstimatedEarnings": {
+    "message": "רווחים מוערכים",
+    "description": ""
+  },
+  "walletLogIntoYourAccount": {
+    "message": "התחבר אל חשבון $provider$ שלך",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletMonthlyTips": {
+    "message": "טיפים חודשיים",
+    "description": ""
+  },
+  "walletMyWallet": {
+    "message": "הארנק שלי",
+    "description": ""
+  },
+  "walletOneTimeTips": {
+    "message": "טיפ חד-פעמי",
+    "description": ""
+  },
+  "walletPending": {
+    "message": "בהמתנה",
+    "description": ""
+  },
+  "walletRewardsFromAds": {
+    "message": "תגמולים מפרסומות",
+    "description": ""
+  },
+  "walletRewardsSummary": {
+    "message": "סיכום תגמולים",
+    "description": ""
+  },
+  "walletVerified": {
+    "message": "מאומת",
+    "description": ""
+  },
+  "walletVerify": {
+    "message": "אימות ארנק",
+    "description": ""
+  },
+  "walletYourBalance": {
+    "message": "היתרה שלך",
+    "description": ""
+  },
+  "notificationAddFunds": {
+    "message": "הוספת כספים",
+    "description": ""
+  },
+  "notificationReconnect": {
+    "message": "התחבר מחדש",
+    "description": ""
+  },
+  "notificationClaim": {
+    "message": "תביעה",
+    "description": ""
+  },
+  "notificationAddFundsTitle": {
+    "message": "יתרה אינה מספיקה ",
+    "description": ""
+  },
+  "notificationAddFundsText": {
+    "message": "חשבון Brave Rewards שלך מחכה להפקה.",
+    "description": ""
+  },
+  "notificationAutoContributeCompletedTitle": {
+    "message": "תרומה אוטומטית",
+    "description": ""
+  },
+  "notificationAutoContributeCompletedText": {
+    "message": "תרמת $amount$.",
+    "description": "",
+    "placeholders": {
+      "amount": {
+        "content": "$1"
+      }
+    }
+  },
+  "notificationBackupWalletTitle": {
+    "message": "ארנק גיבוי",
+    "description": ""
+  },
+  "notificationBackupWalletText": {
+    "message": "אנא גבו את ארנק ה-Brave שלכם.",
+    "description": ""
+  },
+  "notificationBackupWalletAction": {
+    "message": "צור גיבוי כעת",
+    "description": ""
+  },
+  "notificationWalletDisconnectedTitle": {
+    "message": "הארנק שלך מנותק מהמערכת",
+    "description": ""
+  },
+  "notificationWalletDisconnectedText": {
+    "message": "דבר זה עשוי לקרות לצורך שמירה על אבטחת החשבון שלך. לחץ למטה כדי להתחבר מחדש עכשיו.",
+    "description": ""
+  },
+  "notificationWalletDisconnectedAction": {
+    "message": "התחבר מחדש",
+    "description": ""
+  },
+  "notificationWalletVerifiedTitle": {
+    "message": "הארנק שלך מאומת!",
+    "description": ""
+  },
+  "notificationWalletVerifiedText": {
+    "message": "ארנק $provider$ שלך אומת בהצלחה ומוכן להוספת ומשיכת כספים.",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "notificationTokenGrantTitle": {
+    "message": "מענקי אסימונים",
+    "description": ""
+  },
+  "notificationTokenGrantText": {
+    "message": "מחכה לכם מענק.",
+    "description": ""
+  },
+  "notificationAdGrantTitle": {
+    "message": "תגמולי פרסומות התקבלו",
+    "description": ""
+  },
+  "notificationAdGrantText": {
+    "message": "התגמולים שלך מ-Brave Private Ads כבר כאן!",
+    "description": ""
+  },
+  "notificationMonthlyContributionFailedTitle": {
+    "message": "התרומה החודשית נכשלה",
+    "description": ""
+  },
+  "notificationInsufficientFundsText": {
+    "message": "לא ניתן היה להשלים את התשלום החודשי המתוכנן שלכם עבור תרומה אוטומטית ותרומות חודשיות בשל חוסר בכסף. אנו ננסה שוב בעוד 30 יום.",
+    "description": ""
+  },
+  "notificationMonthlyContributionFailedText": {
+    "message": "אירעה תקלה בעיבוד התרומה שלכם.",
+    "description": ""
+  },
+  "notificationMonthlyTipCompletedTitle": {
+    "message": "תרומות וטיפים",
+    "description": ""
+  },
+  "notificationMonthlyTipCompletedText": {
+    "message": "התרומות החודשיות שלך עובדו.",
+    "description": ""
+  },
+  "notificationPublisherVerifiedTitle": {
+    "message": "תרומה ממתינה",
+    "description": ""
+  },
+  "notificationPublisherVerifiedText": {
+    "message": "היוצר $publisher_name$ אומת לאחרונה",
+    "description": "",
+    "placeholders": {
+      "publisher_name": {
+        "content": "$1"
+      }
+    }
+  },
+  "notificationPendingTipFailedTitle": {
+    "message": "אין מספיק כספים",
+    "description": ""
+  },
+  "notificationPendingTipFailedText": {
+    "message": "יש לכם טיפים שממתינים בשל חוסר בכסף",
+    "description": ""
+  },
+  "onboardingEarnHeader": {
+    "message": "הרוויחו טוקנים ותנו בחזרה",
+    "description": ""
+  },
+  "onboardingEarnText": {
+    "message": "הרוויחו טוקנים על ידי צפייה בפרסומות השומרות על הפרטיות ותמכו באתרים וביוצרי התוכן המועדפים עליכם באופן אוטומטי.",
+    "description": ""
+  },
+  "onboardingSetupAdsHeader": {
+    "message": "באיזו תדירות תרצו לראות פרסומות?",
+    "description": ""
+  },
+  "onboardingSetupAdsSubheader": {
+    "message": "(פרסומות לשעה)",
+    "description": ""
+  },
+  "onboardingSetupContributeHeader": {
+    "message": "כמה תמיכה חודשית תרצו לתת ליוצרים החביבים עליכם?",
+    "description": ""
+  },
+  "onboardingSetupContributeSubheader": {
+    "message": "(מרווחי הפרסומות שלך)",
+    "description": ""
+  },
+  "onboardingStartUsingRewards": {
+    "message": "התחל להשתמש ב-Brave Rewards",
+    "description": ""
+  },
+  "onboardingTakeTour": {
+    "message": "צא לסיור מהיר",
+    "description": ""
+  },
+  "onboardingTerms": {
+    "message": "על ידי המשך, הנכם מסכימים $tos_link_begin$לתנאי השירות$tos_link_end$ $pp_link_begin$ומדיניות הפרטיות$pp_link_end$.",
+    "description": "",
+    "placeholders": {
+      "tos_link_begin": {
+        "content": "$1"
+      },
+      "tos_link_end": {
+        "content": "$2"
+      },
+      "pp_link_begin": {
+        "content": "$3"
+      },
+      "pp_link_end": {
+        "content": "$4"
+      }
+    }
+  },
+  "onboardingTourBack": {
+    "message": "חזור",
+    "description": ""
+  },
+  "onboardingTourBegin": {
+    "message": "בואו נערוך סיור מהיר",
+    "description": ""
+  },
+  "onboardingTourContinue": {
+    "message": "המשך",
+    "description": ""
+  },
+  "onboardingTourDone": {
+    "message": "בוצע",
+    "description": ""
+  },
+  "onboardingTourSkip": {
+    "message": "דלג",
+    "description": ""
+  },
+  "onboardingTourSkipForNow": {
+    "message": "דלג לעת עתה",
+    "description": ""
+  },
+  "onboardingPanelWelcomeHeader": {
+    "message": "ברוכים הבאים ל-Brave Rewards!",
+    "description": ""
+  },
+  "onboardingPanelWelcomeText": {
+    "message": "פרסומות Brave Private מתגמלות אתכם בטוקנים לתמיכה ביוצרי תוכן בשונה מפרסומות מסורתיות, כל זאת תוך שמירה על פרטיות המידע האישי שלכם.",
+    "description": ""
+  },
+  "onboardingPanelAdsHeader": {
+    "message": "היכן מוצגות פרסומות?",
+    "description": ""
+  },
+  "onboardingPanelAdsText": {
+    "message": "פרסומות Brave Private יופיעו כהודעה רגילה. אתם שולטים באיזו תדירות אתם רואים פרסומות אלה בהגדרות.",
+    "description": ""
+  },
+  "onboardingPanelScheduleHeader": {
+    "message": "מתי אתם מקבלים פרסים?",
+    "description": ""
+  },
+  "onboardingPanelScheduleText": {
+    "message": "הטוקנים שהרווחתם מפרסומות Brave Private במהלך החודש הנוכחי יגיעו ב -5 לחודש הבא.",
+    "description": ""
+  },
+  "onboardingPanelAcHeader": {
+    "message": "נתינה בחזרה הפכה לקלה",
+    "description": ""
+  },
+  "onboardingPanelAcText": {
+    "message": "היוצרים מקבלים את תרומות הטוקנים שלכם באופן אוטומטי על סמך רמות המעורבות שלכם שאנו מודדים כ'תשומת לב'.",
+    "description": ""
+  },
+  "onboardingPanelTippingHeader": {
+    "message": "תגידו תודה באמצעות טיפים",
+    "description": ""
+  },
+  "onboardingPanelTippingText": {
+    "message": "מתן טיפים היא דרך לעודד ולתמוך באופן אישי בתכנים או ביוצרים שאתם אוהבים. התחילו לתת טיפים!",
+    "description": ""
+  },
+  "onboardingPanelRedeemHeader": {
+    "message": "מה באפשרותכם לעשות עם טוקנים?",
+    "description": ""
+  },
+  "onboardingPanelRedeemText": {
+    "message": "ניתן להשתמש בטוקנים מעבר לתמיכה ביוצרים. באפשרותכם לקנות תוכן דיגיטלי וסחורות אחרות כאשר הסוחרים מצטרפים.",
+    "description": ""
+  },
+  "onboardingPanelSetupHeader": {
+    "message": "לסיום, בוא/י נתקין אותך עם ההגדרות הבסיסיות",
+    "description": ""
+  },
+  "onboardingPanelSetupText": {
+    "message": "תוכלו לשנות זאת בהמשך.",
+    "description": ""
+  },
+  "onboardingPanelCompleteHeader": {
+    "message": "ווהו, אתם מוכנים!",
+    "description": ""
+  },
+  "onboardingPanelCompleteText": {
+    "message": "בשימושכם ב-Brave Rewards אתם עוזרים להפוך את האינטרנט למקום טוב יותר עבור כולם. וזה מדהים!",
+    "description": ""
+  },
+  "onboardingPanelVerifyHeader": {
+    "message": "אמתו את הארנק שלכם",
+    "description": ""
+  },
+  "onboardingPanelVerifySubtext": {
+    "message": "על מנת למשוך את האסימונים שהרווחתם מצפיית פרסומות, תצטרכו לאמת את הארנק שלכם.",
+    "description": ""
+  },
+  "onboardingPanelVerifyLater": {
+    "message": "עשה זאת מאוחר יותר",
+    "description": ""
+  },
+  "onboardingPanelVerifyNow": {
+    "message": "אמתו את הארנק שלי",
+    "description": ""
+  },
+  "onboardingPanelBitflyerNote": {
+    "message": "ארנק bitFlyer הוא שירות המנוהל על ידי bitFlyer, Inc.",
+    "description": ""
+  },
+  "onboardingPanelBitflyerText": {
+    "message": "על ידי אימות הארנק שלכם וקישורו לחשבון bitFlyer, תוכלו לאחסן ולנהל את האסימונים שהרווחתם באמצעות  Brave Rewards ביתר קלות.",
+    "description": ""
+  },
+  "onboardingPanelBitflyerLearnMore": {
+    "message": "$link_begin$למידע נוסף$link_end$ אודות אופן הקישור של דפדפן Brave עם חשבון ה-bitFlyer שלכם.",
+    "description": "",
+    "placeholders": {
+      "link_begin": {
+        "content": "$1"
+      },
+      "link_end": {
+        "content": "$2"
+      }
+    }
+  },
+  "captchaMaxAttemptsExceededText": {
+    "message": "נראה כי אפשרות זו אינה פועלת, פרסומות Brave יישארו מושהות. צור אתנו קשר אם אתה זקוק לעזרה עם ה-captcha.",
+    "description": ""
+  },
+  "captchaMaxAttemptsExceededTitle": {
+    "message": "חריגה ממספר הניסיונות המרבי המותר",
+    "description": ""
+  },
+  "captchaSolvedTitle": {
+    "message": "נפתר!",
+    "description": ""
+  },
+  "captchaSolvedText": {
+    "message": "פרסומות ורווחים לא יחודשו. תודה שעזרת לנו להגן על Brave Rewards ועל פרסומות מבוססות פרטיות.",
+    "description": ""
+  },
+  "captchaContactSupport": {
+    "message": "פנה לתמיכה",
+    "description": ""
+  },
+  "captchaDismiss": {
+    "message": "סגור",
+    "description": ""
+  },
+  "braveTalkTurnOnRewardsToStartCall": {
+    "message": "להתחלת שיחה שיחה בחינם, הפעל את Brave Rewards",
+    "description": ""
+  },
+  "braveTalkBraveRewardsDescription": {
+    "message": "עם Brave Rewards אתה מרוויח נקודות לצפייה במודעות פרטיות (הנתונים שלך מאובטחים). תוכל להפוך את הנקודות האלה למזומן, לכרטיסי מתנה או אפילו לתת כטיפ לאתרים שאתה אוהב. אין מעקב. אין הורדות איטיות.",
+    "description": ""
+  },
+  "braveTalkTurnOnRewards": {
+    "message": "הפעל את Rewards",
+    "description": ""
+  },
+  "braveTalkOptInRewardsTerms": {
+    "message": "על ידי הפעלה, הנכם מסכימים $tos_link_begin$לתנאי השירות$tos_link_end$ ו-$pp_link_begin$מדיניות הפרטיות$pp_link_end$.",
+    "description": "",
+    "placeholders": {
+      "tos_link_begin": {
+        "content": "$1"
+      },
+      "tos_link_end": {
+        "content": "$2"
+      },
+      "pp_link_begin": {
+        "content": "$3"
+      },
+      "pp_link_end": {
+        "content": "$4"
+      }
+    }
+  },
+  "braveTalkTurnOnPrivateAdsToStartCall": {
+    "message": "כדי להתחיל שיחה בחינם, יש להפעיל מודעות פרטיות של Brave",
+    "description": ""
+  },
+  "braveTalkPrivateAdsDescription": {
+    "message": "עם Brave Rewards אתה מרוויח נקודות לצפייה במודעות פרטיות (הנתונים שלך מאובטחים). תוכל להפוך את הנקודות האלה למזומן, לכרטיסי מתנה או אפילו לתת כטיפ לאתרים שאתה אוהב. אין מעקב. אין הורדות איטיות.",
+    "description": ""
+  },
+  "braveTalkTurnOnPrivateAds": {
+    "message": "הפעל את Brave Private Ads",
+    "description": ""
+  },
+  "braveTalkCanStartFreeCall": {
+    "message": "כעת תוכל להתחיל שיחה בחינם",
+    "description": ""
+  },
+  "braveTalkClickAnywhereToBraveTalk": {
+    "message": "לחץ או הקש בכל מקום על המסך על מנת להמשיך ל-Brave Talk.",
+    "description": ""
+  },
+  "braveTalkWantLearnMore": {
+    "message": "רוצה ללמוד עוד על Brave Rewards? $tour_link_begin$קח סיור מהיר$tour_link_end$.",
+    "description": "",
+    "placeholders": {
+      "tour_link_begin": {
+        "content": "$1"
+      },
+      "tour_link_end": {
+        "content": "$2"
+      }
+    }
+  }
+}

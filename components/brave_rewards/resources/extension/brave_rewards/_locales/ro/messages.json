@@ -1,0 +1,657 @@
+{
+  "summary": {
+    "message": "Rezumat",
+    "description": ""
+  },
+  "tip": {
+    "message": "Indiciu",
+    "description": ""
+  },
+  "unverifiedCreator": {
+    "message": "Creator neconfirmat",
+    "description": ""
+  },
+  "verifiedCreator": {
+    "message": "Creator confirmat",
+    "description": ""
+  },
+  "refreshStatus": {
+    "message": "Actualizați",
+    "description": ""
+  },
+  "pendingTipText": {
+    "message": "Orice contribuție faceți va rămâne în așteptare în portofelul dvs. și se va reîncerca automat timp de 90 de zile. $link_begin$Aflați mai multe$link_end$",
+    "description": "",
+    "placeholders": {
+      "link_begin": {
+        "content": "$1"
+      },
+      "link_end": {
+        "content": "$2"
+      }
+    }
+  },
+  "pendingTipTitle": {
+    "message": "Acest creator nu este înregistrat încă",
+    "description": ""
+  },
+  "pendingTipTitleRegistered": {
+    "message": "Acest creator nu este configurat în prezent pentru a primi contribuții din portofelul dvs",
+    "description": ""
+  },
+  "platformPublisherTitle": {
+    "message": "$name$ pe $platform$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      },
+      "platform": {
+        "content": "$2"
+      }
+    }
+  },
+  "attention": {
+    "message": "Atenție",
+    "description": ""
+  },
+  "sendTip": {
+    "message": "Trimiteți bacșiș",
+    "description": ""
+  },
+  "includeInAutoContribute": {
+    "message": "Includeți în contribuție automată",
+    "description": ""
+  },
+  "monthlyContribution": {
+    "message": "Contribuție lunară",
+    "description": ""
+  },
+  "ok": {
+    "message": "OK",
+    "description": ""
+  },
+  "set": {
+    "message": "Setați",
+    "description": ""
+  },
+  "changeAmount": {
+    "message": "Schimbă suma",
+    "description": ""
+  },
+  "cancel": {
+    "message": "Anulează",
+    "description": ""
+  },
+  "grantCaptchaTitle": {
+    "message": "Confirmați că sunteți o persoană",
+    "description": ""
+  },
+  "grantCaptchaFailedTitle": {
+    "message": "Hmm… Nu Chiar. Încercați Din Nou.",
+    "description": ""
+  },
+  "grantCaptchaHint": {
+    "message": "Inserați pictograma BAT în ținta $hint$.",
+    "description": "",
+    "placeholders": {
+      "hint": {
+        "content": "$1"
+      }
+    }
+  },
+  "grantCaptchaPassedTitleUGP": {
+    "message": "Este ziua dumneavoastră norocoasă!",
+    "description": ""
+  },
+  "grantCaptchaPassedTextUGP": {
+    "message": "Grantul token-ului dumneavoastră trebuie să sosească.",
+    "description": ""
+  },
+  "grantCaptchaAmountUGP": {
+    "message": "Grant Token Gratuit",
+    "description": ""
+  },
+  "grantCaptchaPassedTitleAds": {
+    "message": "Ați câștigat o Recompensă Reclame!",
+    "description": ""
+  },
+  "grantCaptchaPassedTextAds": {
+    "message": "Recompensa este pe drum spre portofelul dumneavoastră de Recompense Brave.",
+    "description": ""
+  },
+  "grantCaptchaAmountAds": {
+    "message": "Suma de Recompense",
+    "description": ""
+  },
+  "grantCaptchaExpiration": {
+    "message": "Data Expirării Grantului",
+    "description": ""
+  },
+  "grantCaptchaErrorTitle": {
+    "message": "Hopa, ceva nu funcționează. Vă rugăm încercați din nou mai târziu.",
+    "description": ""
+  },
+  "grantCaptchaErrorText": {
+    "message": "Brave Rewards are o problemă. Vă rugăm încercați din nou mai târziu.",
+    "description": ""
+  },
+  "rewardsPaymentCheckStatus": {
+    "message": "Verificați starea",
+    "description": ""
+  },
+  "rewardsPaymentCompleted": {
+    "message": "Felicitări! Recompensa dvs. pentru $month$ a intrat în cont!",
+    "description": "",
+    "placeholders": {
+      "month": {
+        "content": "$1"
+      }
+    }
+  },
+  "rewardsPaymentPending": {
+    "message": "Recompensa dvs. de $amount$ pentru $month$ va intra în cont în $days$",
+    "description": "",
+    "placeholders": {
+      "amount": {
+        "content": "$1"
+      },
+      "month": {
+        "content": "$2"
+      },
+      "days": {
+        "content": "$3"
+      }
+    }
+  },
+  "rewardsPaymentProcessing": {
+    "message": "Recompensa dvs. de $amount$ pentru $month$ e pe drum. Monitorizați contul dvs.!",
+    "description": "",
+    "placeholders": {
+      "amount": {
+        "content": "$1"
+      },
+      "month": {
+        "content": "$2"
+      }
+    }
+  },
+  "walletAccountLink": {
+    "message": "Accesați contul meu $provider$",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletAddFunds": {
+    "message": "Adaugă fonduri",
+    "description": ""
+  },
+  "walletAutoContribute": {
+    "message": "Contribuție automată",
+    "description": ""
+  },
+  "walletCompleteVerificationLink": {
+    "message": "Accesați $provider$ pentru finalizarea verificării",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletCompleteVerificationText": {
+    "message": "Finalizați confirmarea identității pentru a începe să primiți recompense.",
+    "description": ""
+  },
+  "walletDisconnected": {
+    "message": "Deconectat",
+    "description": ""
+  },
+  "walletDisconnectLink": {
+    "message": "Deconectați-vă de la $provider$",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletEstimatedEarnings": {
+    "message": "Venituri estimate",
+    "description": ""
+  },
+  "walletLogIntoYourAccount": {
+    "message": "Conectați-vă la contul dvs. $provider$ ",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "walletMonthlyTips": {
+    "message": "Plăți lunare",
+    "description": ""
+  },
+  "walletMyWallet": {
+    "message": "Portofelul meu",
+    "description": ""
+  },
+  "walletOneTimeTips": {
+    "message": "Cadouri bănești o singură dată",
+    "description": ""
+  },
+  "walletPending": {
+    "message": "În așteptare",
+    "description": ""
+  },
+  "walletRewardsFromAds": {
+    "message": "Recompense din reclame",
+    "description": ""
+  },
+  "walletRewardsSummary": {
+    "message": "Rezumat ",
+    "description": ""
+  },
+  "walletVerified": {
+    "message": "Verificat",
+    "description": ""
+  },
+  "walletVerify": {
+    "message": "Verificare portofel",
+    "description": ""
+  },
+  "walletYourBalance": {
+    "message": "Soldul dumneavoastră",
+    "description": ""
+  },
+  "notificationAddFunds": {
+    "message": "Adaugă fonduri",
+    "description": ""
+  },
+  "notificationReconnect": {
+    "message": "Reconectați-vă",
+    "description": ""
+  },
+  "notificationClaim": {
+    "message": "Revendică",
+    "description": ""
+  },
+  "notificationAddFundsTitle": {
+    "message": "Fonduri insuficiente",
+    "description": ""
+  },
+  "notificationAddFundsText": {
+    "message": "Contul tău Brave Rewards așteaptă o depunere.",
+    "description": ""
+  },
+  "notificationAutoContributeCompletedTitle": {
+    "message": "Contribuție automată",
+    "description": ""
+  },
+  "notificationAutoContributeCompletedText": {
+    "message": "Ați contribuit cu $amount$",
+    "description": "",
+    "placeholders": {
+      "amount": {
+        "content": "$1"
+      }
+    }
+  },
+  "notificationBackupWalletTitle": {
+    "message": "Creați o copie de rezervă pentru portofel",
+    "description": ""
+  },
+  "notificationBackupWalletText": {
+    "message": "Vă rugăm efectuați o copie de rezervă pentru portofelul Brave.",
+    "description": ""
+  },
+  "notificationBackupWalletAction": {
+    "message": "Creați o copie de rezervă acum",
+    "description": ""
+  },
+  "notificationWalletDisconnectedTitle": {
+    "message": "Portofelul dvs. este deconectat",
+    "description": ""
+  },
+  "notificationWalletDisconnectedText": {
+    "message": "Acest lucru se întâmplă pentru a vă menține contul în siguranță. Dați clic mai jos pentru a vă reconecta acum.",
+    "description": ""
+  },
+  "notificationWalletDisconnectedAction": {
+    "message": "Reconectați-vă",
+    "description": ""
+  },
+  "notificationWalletVerifiedTitle": {
+    "message": "Portofelul dvs. este verificat!",
+    "description": ""
+  },
+  "notificationWalletVerifiedText": {
+    "message": "Portofelul $provider$ a fost confirmat cu succes și este pregătit pentru depunerea și retragerea de fonduri.",
+    "description": "",
+    "placeholders": {
+      "provider": {
+        "content": "$1"
+      }
+    }
+  },
+  "notificationTokenGrantTitle": {
+    "message": "Donații în jetoane",
+    "description": ""
+  },
+  "notificationTokenGrantText": {
+    "message": "Aveți o ofertă care vă așteaptă.",
+    "description": ""
+  },
+  "notificationAdGrantTitle": {
+    "message": "Venituri încasate din reclame",
+    "description": ""
+  },
+  "notificationAdGrantText": {
+    "message": "Recompensele din reclamele Brave Private sunt aici!",
+    "description": ""
+  },
+  "notificationMonthlyContributionFailedTitle": {
+    "message": "Contribuție lunară eșuată",
+    "description": ""
+  },
+  "notificationInsufficientFundsText": {
+    "message": "Plata dvs. lunară programată pentru Contribuția automată și contribuțiile lunare nu a putut fi finalizată din cauza fondurilor insuficiente. Vom încerca din nou peste 30 de zile.",
+    "description": ""
+  },
+  "notificationMonthlyContributionFailedText": {
+    "message": "A apărut o problemă la procesarea contribuției dumneavoastră.",
+    "description": ""
+  },
+  "notificationMonthlyTipCompletedTitle": {
+    "message": "Contribuții și bacșișuri",
+    "description": ""
+  },
+  "notificationMonthlyTipCompletedText": {
+    "message": "Contribuțiile dvs. lunare au fost procesate.",
+    "description": ""
+  },
+  "notificationPublisherVerifiedTitle": {
+    "message": "Contribuție în așteptare",
+    "description": ""
+  },
+  "notificationPublisherVerifiedText": {
+    "message": "Creatorul $publisher_name$ a fost verificat recent",
+    "description": "",
+    "placeholders": {
+      "publisher_name": {
+        "content": "$1"
+      }
+    }
+  },
+  "notificationPendingTipFailedTitle": {
+    "message": "Fonduri insuficiente",
+    "description": ""
+  },
+  "notificationPendingTipFailedText": {
+    "message": "Aveți bacșișuri în așteptare din cauza fondurilor insuficiente",
+    "description": ""
+  },
+  "onboardingEarnHeader": {
+    "message": "Câștigați tokenuri și dăruiți",
+    "description": ""
+  },
+  "onboardingEarnText": {
+    "message": "Câștigați tokenuri vizualizând reclame care respectă confidențialitatea și susțineți automat site-urile și creatorii de conținut favoriți.",
+    "description": ""
+  },
+  "onboardingSetupAdsHeader": {
+    "message": "Cât de des vreți să vedeți reclame?",
+    "description": ""
+  },
+  "onboardingSetupAdsSubheader": {
+    "message": "(reclame pe oră)",
+    "description": ""
+  },
+  "onboardingSetupContributeHeader": {
+    "message": "Cât sprijin lunar vreți să oferiți creatorilor preferați?",
+    "description": ""
+  },
+  "onboardingSetupContributeSubheader": {
+    "message": "(din câștigurile dvs. din reclame)",
+    "description": ""
+  },
+  "onboardingStartUsingRewards": {
+    "message": "Începeți să folosiți Recompensele Brave",
+    "description": ""
+  },
+  "onboardingTakeTour": {
+    "message": "Faceți un tur rapid",
+    "description": ""
+  },
+  "onboardingTerms": {
+    "message": "Continuând, îți dai acordul pentru $tos_link_begin$Termenii de utilizare$tos_link_end$ și $pp_link_begin$Politica de confidențialitate$pp_link_end$.",
+    "description": "",
+    "placeholders": {
+      "tos_link_begin": {
+        "content": "$1"
+      },
+      "tos_link_end": {
+        "content": "$2"
+      },
+      "pp_link_begin": {
+        "content": "$3"
+      },
+      "pp_link_end": {
+        "content": "$4"
+      }
+    }
+  },
+  "onboardingTourBack": {
+    "message": "Înapoi",
+    "description": ""
+  },
+  "onboardingTourBegin": {
+    "message": "Să facem un tur rapid",
+    "description": ""
+  },
+  "onboardingTourContinue": {
+    "message": "Continuă",
+    "description": ""
+  },
+  "onboardingTourDone": {
+    "message": "Gata",
+    "description": ""
+  },
+  "onboardingTourSkip": {
+    "message": "Omite",
+    "description": ""
+  },
+  "onboardingTourSkipForNow": {
+    "message": "Ignoră pentru moment",
+    "description": ""
+  },
+  "onboardingPanelWelcomeHeader": {
+    "message": "Bun venit la Recompensele Brave!",
+    "description": ""
+  },
+  "onboardingPanelWelcomeText": {
+    "message": "Reclamele private Brave te recompensează cu tokeni, pentru a sprijini creatorii de conținut altfel decât reclamele tradiționale, menținându-ți în același timp informațiile personale private.",
+    "description": ""
+  },
+  "onboardingPanelAdsHeader": {
+    "message": "Unde se afișează reclamele/",
+    "description": ""
+  },
+  "onboardingPanelAdsText": {
+    "message": "Reclamele private Brave vor apărea sub forma unei notificări obișnuite. Tu controlezi cât de des vezi aceste reclame, din setări.",
+    "description": ""
+  },
+  "onboardingPanelScheduleHeader": {
+    "message": "Când primiți recompensele?",
+    "description": ""
+  },
+  "onboardingPanelScheduleText": {
+    "message": "Tokenii obținuți pentru reclamele private Brave urmărite pe parcursul acestei luni vor fi disponibili în data de 5 a lunii următoare.",
+    "description": ""
+  },
+  "onboardingPanelAcHeader": {
+    "message": "Dăruiți fără efort",
+    "description": ""
+  },
+  "onboardingPanelAcText": {
+    "message": "Creatorii primesc contribuțiile simbolice în mod automat, pe baza nivelurilor tale de implicare, pe care le măsurăm sub formă de „Atenție”.",
+    "description": ""
+  },
+  "onboardingPanelTippingHeader": {
+    "message": "Spuneți „mulțumesc” cu tokenuri",
+    "description": ""
+  },
+  "onboardingPanelTippingText": {
+    "message": "Trimiterea de tokenuri este o modalitate de a încuraja și de a susține personal conținutul sau creatorii care vă plac. Începeți să trimiteți!",
+    "description": ""
+  },
+  "onboardingPanelRedeemHeader": {
+    "message": "Ce puteți face cu tokenurile?",
+    "description": ""
+  },
+  "onboardingPanelRedeemText": {
+    "message": "Tokenii pot fi folosiți la mai mult decât susținerea creatorilor. Poți cumpăra conținut digital și alte bunuri pe măsură ce ni se alătură mai mulți vânzători.",
+    "description": ""
+  },
+  "onboardingPanelSetupHeader": {
+    "message": "La sfârșit, să configurăm setările de bază",
+    "description": ""
+  },
+  "onboardingPanelSetupText": {
+    "message": "Puteți modifica acest lucru mai târziu.",
+    "description": ""
+  },
+  "onboardingPanelCompleteHeader": {
+    "message": "Iuhuu, totul e gata!",
+    "description": ""
+  },
+  "onboardingPanelCompleteText": {
+    "message": "Folosind Recompensele Brave, dai o mână de ajutor la efortul de a face internetul un loc mai bun pentru toată lumea. Și asta este minunat!",
+    "description": ""
+  },
+  "onboardingPanelVerifyHeader": {
+    "message": "Confirmați portofelul dvs.",
+    "description": ""
+  },
+  "onboardingPanelVerifySubtext": {
+    "message": "Pentru a putea retrage token-urile câștigate prin afișarea de anunțuri, va trebui să confirmați portofelul dvs.",
+    "description": ""
+  },
+  "onboardingPanelVerifyLater": {
+    "message": "Mai târziu",
+    "description": ""
+  },
+  "onboardingPanelVerifyNow": {
+    "message": "Confirmă portofelul meu",
+    "description": ""
+  },
+  "onboardingPanelBitflyerNote": {
+    "message": "Portofelul bitFlyer este un serviciu administrat de bitFlyer, Inc.",
+    "description": ""
+  },
+  "onboardingPanelBitflyerText": {
+    "message": "Prin confirmarea portofelului dvs. și conectarea acestuia la un cont bitFlyer, veți putea stoca și gestiona mai ușor token-urile câștigate prin Brave Rewards",
+    "description": ""
+  },
+  "onboardingPanelBitflyerLearnMore": {
+    "message": "$link_begin$Aflați mai multe$link_end$ despre cum puteți conecta browserul Brave la contul bitFlyer.",
+    "description": "",
+    "placeholders": {
+      "link_begin": {
+        "content": "$1"
+      },
+      "link_end": {
+        "content": "$2"
+      }
+    }
+  },
+  "captchaMaxAttemptsExceededText": {
+    "message": "Se pare că nu funcționează, reclamele Brave vor rămâne întrerupte. Contactați-ne dacă aveți nevoie de ajutor cu modulul captcha.",
+    "description": ""
+  },
+  "captchaMaxAttemptsExceededTitle": {
+    "message": "Nr. max. de încercări depășite",
+    "description": ""
+  },
+  "captchaSolvedTitle": {
+    "message": "Rezolvat!",
+    "description": ""
+  },
+  "captchaSolvedText": {
+    "message": "Reclamele și veniturile se vor relua. Mulțumim pentru ajutorul acordat pentru protejarea recompenselor Brave și pentru reclamele bazate pe confidențialitate.",
+    "description": ""
+  },
+  "captchaContactSupport": {
+    "message": "Contactați echipa de asistență",
+    "description": ""
+  },
+  "captchaDismiss": {
+    "message": "Închide",
+    "description": ""
+  },
+  "braveTalkTurnOnRewardsToStartCall": {
+    "message": "Pentru a iniția un apel gratuit, activați Brave Rewards",
+    "description": ""
+  },
+  "braveTalkBraveRewardsDescription": {
+    "message": "Cu Brave Rewards, câștigați token-uri când afișați reclame (datele dvs. sunt în siguranță). Transformați acele token-uri în bani sau carduri cadou ori susțineți site-urile care vă plac. Nu sunteți urmărit, iar viteza de încărcare nu este redusă!",
+    "description": ""
+  },
+  "braveTalkTurnOnRewards": {
+    "message": "Activare Rewards",
+    "description": ""
+  },
+  "braveTalkOptInRewardsTerms": {
+    "message": "Prin activare, acceptați $tos_link_begin$Termenii de utilizare$tos_link_end$ și $pp_link_begin$Politica de confidențialitate$pp_link_end$.",
+    "description": "",
+    "placeholders": {
+      "tos_link_begin": {
+        "content": "$1"
+      },
+      "tos_link_end": {
+        "content": "$2"
+      },
+      "pp_link_begin": {
+        "content": "$3"
+      },
+      "pp_link_end": {
+        "content": "$4"
+      }
+    }
+  },
+  "braveTalkTurnOnPrivateAdsToStartCall": {
+    "message": "Pentru a iniția un apel gratuit, activați Brave Private Ads",
+    "description": ""
+  },
+  "braveTalkPrivateAdsDescription": {
+    "message": "Cu Brave Private Ads, câștigați token-uri când afișați reclame (datele dvs. sunt în siguranță). Transformați acele token-uri în bani sau carduri cadou ori susțineți site-urile care vă plac. Nu sunteți urmărit, iar viteza de încărcare nu este redusă!",
+    "description": ""
+  },
+  "braveTalkTurnOnPrivateAds": {
+    "message": "Activați Brave Private Ads",
+    "description": ""
+  },
+  "braveTalkCanStartFreeCall": {
+    "message": "Acum puteți iniția un apel gratuit",
+    "description": ""
+  },
+  "braveTalkClickAnywhereToBraveTalk": {
+    "message": "Atingeți sau dați clic pe orice loc pe ecran pentru a continua la Brave Talk.",
+    "description": ""
+  },
+  "braveTalkWantLearnMore": {
+    "message": "Doriți să aflați mai multe despre Brave Rewards? $tour_link_begin$Faceți un tur rapid$tour_link_end$.",
+    "description": "",
+    "placeholders": {
+      "tour_link_begin": {
+        "content": "$1"
+      },
+      "tour_link_end": {
+        "content": "$2"
+      }
+    }
+  }
+}

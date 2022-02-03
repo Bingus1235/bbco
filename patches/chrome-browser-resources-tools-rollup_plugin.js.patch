@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/resources/tools/rollup_plugin.js b/chrome/browser/resources/tools/rollup_plugin.js
+index 1717bb41e5cca3d61255073fd99002ba4592e6ad..8e7913b281ce91add70f3e19131d9af3eeb17d03 100644
+--- a/chrome/browser/resources/tools/rollup_plugin.js
++++ b/chrome/browser/resources/tools/rollup_plugin.js
+@@ -89,6 +89,7 @@ export default function plugin(
+       if (origin) {
+         origin = normalizeSlashes(origin);
+       }
++      if (source.startsWith('//brave-resources/')) { source = 'chrome:' + source; } if (source.startsWith('chrome://brave-resources/')) { origin = undefined; }
+ 
+       for (const [url, path] of urlsToPaths) {
+         const resultPath = getPathForUrl(source, origin, url, path, excludes);

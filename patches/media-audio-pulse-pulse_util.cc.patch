@@ -1,0 +1,13 @@
+diff --git a/media/audio/pulse/pulse_util.cc b/media/audio/pulse/pulse_util.cc
+index fc2e297f31373b2733cdf1562fb6632692580caa..5dd6fecda5e6d4ef73cbe74778f01a0383107341 100644
+--- a/media/audio/pulse/pulse_util.cc
++++ b/media/audio/pulse/pulse_util.cc
+@@ -35,7 +35,7 @@ namespace {
+ #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
+ constexpr char kBrowserDisplayName[] = "google-chrome";
+ #define PRODUCT_STRING "Google Chrome"
+-#else
++#elif 0
+ constexpr char kBrowserDisplayName[] = "chromium-browser";
+ #define PRODUCT_STRING "Chromium"
+ #endif

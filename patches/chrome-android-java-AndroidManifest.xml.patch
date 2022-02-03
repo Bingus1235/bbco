@@ -1,0 +1,83 @@
+diff --git a/chrome/android/java/AndroidManifest.xml b/chrome/android/java/AndroidManifest.xml
+index ea8dbd84eb1514f77c59c26fc05308e5341424eb..ef96ee54e0e77d12a1ab92236584c2b3f72b8c0b 100644
+--- a/chrome/android/java/AndroidManifest.xml
++++ b/chrome/android/java/AndroidManifest.xml
+@@ -59,7 +59,9 @@ by a child template that "extends" this file.
+     <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH_SCAN"
+                             android:usesPermissionFlags="neverForLocation"/>
+ 
++<!--
+     <uses-permission-sdk-23 android:name="android.permission.READ_CONTACTS"/>
++-->
+     <uses-permission-sdk-23 android:name="android.permission.REORDER_TASKS"/>
+     <uses-permission-sdk-23 android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+ 
+@@ -67,18 +69,26 @@ by a child template that "extends" this file.
+     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+     <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
++<!--
+     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
++-->
+     <uses-permission android:name="android.permission.INTERNET"/>
++<!--
+     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
++-->
+     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
++<!--
+     <uses-permission android:name="android.permission.NFC"/>
++-->
+     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+     <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+     <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
++<!--
+     <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
++-->
+     <uses-permission-sdk-23 android:name="android.permission.USE_BIOMETRIC"/>
+     <uses-permission-sdk-23 android:name="android.permission.USE_FINGERPRINT"/>
+     <uses-permission android:name="android.permission.VIBRATE"/>
+@@ -124,7 +134,9 @@ by a child template that "extends" this file.
+     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+ 
++<!--
+     <uses-permission android:name="com.google.android.apps.now.CURRENT_ACCOUNT_ACCESS" />
++--> <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+ 
+     {% block extra_uses_permissions %}
+     {% endblock %}
+@@ -171,6 +183,7 @@ by a child template that "extends" this file.
+     <!-- Set android:largeHeap to "true" to allow more than the default
+          Java heap limit (32Mb on Nexus S, 48Mb on Xoom). -->
+       <application android:name="{% block application_name %}org.chromium.chrome.browser.base.SplitChromeApplication{% endblock %}"
++        android:requestLegacyExternalStorage="true"
+         android:icon="@drawable/ic_launcher"
+         android:roundIcon="@drawable/ic_launcher_round"
+         android:label="{% block application_label %}@string/app_name{% endblock %}"
+@@ -331,6 +344,7 @@ by a child template that "extends" this file.
+                 <action android:name="android.web.action.APP_ATTRIBUTION" />
+                 <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
++            {% include "//brave/android/java/AndroidManifest_intent_filters.xml" %}
+             <meta-data android:name="android.app.searchable"
+                 android:resource="@xml/searchable" />
+         </activity-alias>
+@@ -1193,6 +1207,7 @@ by a child template that "extends" this file.
+             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc|screenLayout|smallestScreenSize" >
+         </activity>
+ 
++        {% include "//brave/android/java/AndroidManifest.xml" %}
+         {% block extra_application_definitions %}
+         {% endblock %}
+       {% endmacro %}
+@@ -1271,6 +1286,7 @@ by a child template that "extends" this file.
+       <!-- ARCore APK integration -->
+       <!-- This tag indicates that this application optionally uses ARCore. -->
+       <meta-data android:name="com.google.ar.core" android:value="optional" />
++        <meta-data android:name="com.google.ar.core.min_apk_version" android:value="202940000"/><activity android:name="com.google.ar.core.InstallActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTop" android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+       {% endif %}
+ 
+       <!-- Cast support -->

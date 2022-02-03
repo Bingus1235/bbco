@@ -1,0 +1,12 @@
+diff --git a/components/content_settings/core/common/content_settings.cc b/components/content_settings/core/common/content_settings.cc
+index 9a9015cdf6bca4ded57d65b17f423ef0350e3af3..c9065e14f2e7139c5b36260926a59f731e4c5f32 100644
+--- a/components/content_settings/core/common/content_settings.cc
++++ b/components/content_settings/core/common/content_settings.cc
+@@ -103,6 +103,7 @@ constexpr HistogramValue kHistogramValue[] = {
+     {ContentSettingsType::FEDERATED_IDENTITY_ACTIVE_SESSION, 82},
+     {ContentSettingsType::AUTO_DARK_WEB_CONTENT, 83},
+     {ContentSettingsType::REQUEST_DESKTOP_SITE, 84},
++    BRAVE_HISTOGRAM_VALUE_LIST
+ };
+ 
+ }  // namespace

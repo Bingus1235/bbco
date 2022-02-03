@@ -1,0 +1,12 @@
+diff --git a/third_party/blink/renderer/modules/cookie_store/cookie_store.cc b/third_party/blink/renderer/modules/cookie_store/cookie_store.cc
+index a14b8f4e6e3675ca1dd323d606df14c60b4c9bed..b33a6c29e7b590f6baff60c152b808b535e2ff77 100644
+--- a/third_party/blink/renderer/modules/cookie_store/cookie_store.cc
++++ b/third_party/blink/renderer/modules/cookie_store/cookie_store.cc
+@@ -83,6 +83,7 @@ std::unique_ptr<net::CanonicalCookie> ToCanonicalCookie(
+   base::Time expires = options->hasExpiresNonNull()
+                            ? base::Time::FromJavaTime(options->expiresNonNull())
+                            : base::Time();
++  BRAVE_TO_CANONICAL_COOKIE
+ 
+   String cookie_url_host = cookie_url.Host();
+   String domain;
